@@ -1,0 +1,12 @@
+300:    listen       25501 ssl;
+301:    server_name  pos.daiso.co.kr pos5.daiso.co.kr 175.209.34.63 adposap01;
+338:    ssl_certificate      /data/certs/daiso.co.kr/cert.pem;
+339:    ssl_certificate_key  /data/certs/daiso.co.kr/key_dec.pem;
+357:    listen       35504 ssl;
+358:    server_name  pos.daiso.co.kr pos5.daiso.co.kr 175.209.34.63 adposap01;
+534:    ssl_certificate      /data/certs/daiso.co.kr/cert.pem;
+535:    ssl_certificate_key  /data/certs/daiso.co.kr/key_dec.pem;
+551:    listen       35508 ssl;
+552:    server_name  pos6.daiso.co.kr;
+728:    ssl_certificate      /data/certs/daiso2.co.kr/cert.pem;
+729:    ssl_certificate_key  /data/certs/daiso2.co.kr/key_dec.pem;

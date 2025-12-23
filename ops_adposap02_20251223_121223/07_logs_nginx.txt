@@ -1,0 +1,251 @@
+### nginx logs
+total 2928168
+drwxr-xr-x  2 root  adm          4096 12월 23 06:25 .
+drwxrwxr-x 18 root  syslog       4096 12월 23 06:25 ..
+-rw-r-----  1 nginx adm     309020959 12월 23 12:12 access.log
+-rw-r-----  1 nginx adm    1032149779 12월 23 06:25 access.log.1
+-rw-r-----  1 nginx adm      31726975 12월 14 06:25 access.log.10.gz
+-rw-r-----  1 nginx adm      32349611 12월 13 06:25 access.log.11.gz
+-rw-r-----  1 nginx adm      31840511 12월 12 06:25 access.log.12.gz
+-rw-r-----  1 nginx adm      31305480 12월 11 06:25 access.log.13.gz
+-rw-r-----  1 nginx adm      31878956 12월 10 06:25 access.log.14.gz
+-rw-r-----  1 nginx adm      31533085 12월  9 06:25 access.log.15.gz
+-rw-r-----  1 nginx adm      30693835 12월  8 06:25 access.log.16.gz
+-rw-r-----  1 nginx adm      31537164 12월  7 06:25 access.log.17.gz
+-rw-r-----  1 nginx adm      33436581 12월  6 06:25 access.log.18.gz
+-rw-r-----  1 nginx adm      33148668 12월  5 06:25 access.log.19.gz
+-rw-r-----  1 nginx adm      31358869 12월 22 06:25 access.log.2.gz
+-rw-r-----  1 nginx adm      33350419 12월  4 06:25 access.log.20.gz
+-rw-r-----  1 nginx adm      32854494 12월  3 06:25 access.log.21.gz
+-rw-r-----  1 nginx adm      32925562 12월  2 06:25 access.log.22.gz
+-rw-r-----  1 nginx adm      31880132 12월  1 06:25 access.log.23.gz
+-rw-r-----  1 nginx adm      32753549 11월 30 06:25 access.log.24.gz
+-rw-r-----  1 nginx adm      32832174 11월 29 06:25 access.log.25.gz
+-rw-r-----  1 nginx adm      33244874 11월 28 06:25 access.log.26.gz
+-rw-r-----  1 nginx adm      31893679 11월 27 06:25 access.log.27.gz
+-rw-r-----  1 nginx adm      32905837 11월 26 06:25 access.log.28.gz
+-rw-r-----  1 nginx adm      32305770 11월 25 06:25 access.log.29.gz
+-rw-r-----  1 nginx adm      31964984 12월 21 06:24 access.log.3.gz
+-rw-r-----  1 nginx adm      29932106 11월 24 06:25 access.log.30.gz
+-rw-r-----  1 nginx adm      34066201 11월 23 06:25 access.log.31.gz
+-rw-r-----  1 nginx adm      33880910 11월 22 06:25 access.log.32.gz
+-rw-r-----  1 nginx adm      34403927 11월 21 06:25 access.log.33.gz
+-rw-r-----  1 nginx adm      34884461 11월 20 06:25 access.log.34.gz
+-rw-r-----  1 nginx adm      32888450 11월 19 06:25 access.log.35.gz
+-rw-r-----  1 nginx adm      32642644 11월 18 06:25 access.log.36.gz
+-rw-r-----  1 nginx adm      33318626 11월 17 06:25 access.log.37.gz
+-rw-r-----  1 nginx adm      33310166 11월 16 06:25 access.log.38.gz
+-rw-r-----  1 nginx adm      34385230 11월 15 06:25 access.log.39.gz
+-rw-r-----  1 nginx adm      32142410 12월 20 06:25 access.log.4.gz
+-rw-r-----  1 nginx adm      34383030 11월 14 06:25 access.log.40.gz
+-rw-r-----  1 nginx adm      31531314 11월 13 06:25 access.log.41.gz
+-rw-r-----  1 nginx adm      32740083 11월 12 06:25 access.log.42.gz
+-rw-r-----  1 nginx adm      32296142 11월 11 06:25 access.log.43.gz
+-rw-r-----  1 nginx adm      29754641 11월 10 06:25 access.log.44.gz
+-rw-r-----  1 nginx adm      31781315 11월  9 06:25 access.log.45.gz
+-rw-r-----  1 nginx adm      33920519 11월  8 06:25 access.log.46.gz
+-rw-r-----  1 nginx adm      32684350 11월  7 06:25 access.log.47.gz
+-rw-r-----  1 nginx adm      32525103 11월  6 06:25 access.log.48.gz
+-rw-r-----  1 nginx adm      32623434 11월  5 06:25 access.log.49.gz
+-rw-r-----  1 nginx adm      32434713 12월 19 06:25 access.log.5.gz
+-rw-r-----  1 nginx adm      32133017 11월  4 06:25 access.log.50.gz
+-rw-r-----  1 nginx adm      31198601 11월  3 06:25 access.log.51.gz
+-rw-r-----  1 nginx adm      32624073 11월  2 06:25 access.log.52.gz
+-rw-r-----  1 nginx adm      31920412 12월 18 06:25 access.log.6.gz
+-rw-r-----  1 nginx adm      31737939 12월 17 06:25 access.log.7.gz
+-rw-r-----  1 nginx adm      32147639 12월 16 06:25 access.log.8.gz
+-rw-r-----  1 nginx adm      29324998 12월 15 06:25 access.log.9.gz
+-rw-r-----  1 nginx adm         68046 12월 23 11:19 error.log
+-rw-r-----  1 nginx adm         95844 12월 23 06:25 error.log.1
+-rw-r-----  1 nginx adm          3502 12월 14 06:25 error.log.10.gz
+-rw-r-----  1 nginx adm          5055 12월 13 06:25 error.log.11.gz
+-rw-r-----  1 nginx adm          8351 12월 12 06:25 error.log.12.gz
+-rw-r-----  1 nginx adm         15523 12월 11 06:25 error.log.13.gz
+-rw-r-----  1 nginx adm         32326 12월 10 06:25 error.log.14.gz
+-rw-r-----  1 nginx adm         24977 12월  9 06:25 error.log.15.gz
+-rw-r-----  1 nginx adm          5725 12월  8 06:25 error.log.16.gz
+-rw-r-----  1 nginx adm          5865 12월  7 06:25 error.log.17.gz
+-rw-r-----  1 nginx adm         24671 12월  6 06:25 error.log.18.gz
+-rw-r-----  1 nginx adm          7861 12월  5 06:25 error.log.19.gz
+-rw-r-----  1 nginx adm          4863 12월 22 06:25 error.log.2.gz
+-rw-r-----  1 nginx adm         13190 12월  4 06:25 error.log.20.gz
+-rw-r-----  1 nginx adm         31849 12월  3 06:25 error.log.21.gz
+-rw-r-----  1 nginx adm         26880 12월  2 06:25 error.log.22.gz
+-rw-r-----  1 nginx adm          5406 12월  1 06:25 error.log.23.gz
+-rw-r-----  1 nginx adm          4254 11월 30 06:25 error.log.24.gz
+-rw-r-----  1 nginx adm          5018 11월 29 06:25 error.log.25.gz
+-rw-r-----  1 nginx adm          7305 11월 28 06:25 error.log.26.gz
+-rw-r-----  1 nginx adm         15296 11월 27 06:25 error.log.27.gz
+-rw-r-----  1 nginx adm          7504 11월 26 06:25 error.log.28.gz
+-rw-r-----  1 nginx adm          8238 11월 25 06:25 error.log.29.gz
+-rw-r-----  1 nginx adm          4942 12월 21 06:25 error.log.3.gz
+-rw-r-----  1 nginx adm          6194 11월 24 06:25 error.log.30.gz
+-rw-r-----  1 nginx adm        259208 11월 23 06:25 error.log.31.gz
+-rw-r-----  1 nginx adm        173766 11월 22 06:25 error.log.32.gz
+-rw-r-----  1 nginx adm        333286 11월 21 06:25 error.log.33.gz
+-rw-r-----  1 nginx adm        368642 11월 20 06:25 error.log.34.gz
+-rw-r-----  1 nginx adm         56886 11월 19 06:25 error.log.35.gz
+-rw-r-----  1 nginx adm         23281 11월 18 06:25 error.log.36.gz
+-rw-r-----  1 nginx adm        332700 11월 17 06:25 error.log.37.gz
+-rw-r-----  1 nginx adm        147121 11월 16 06:25 error.log.38.gz
+-rw-r-----  1 nginx adm        331409 11월 15 06:25 error.log.39.gz
+-rw-r-----  1 nginx adm         10717 12월 20 06:25 error.log.4.gz
+-rw-r-----  1 nginx adm        377234 11월 14 06:25 error.log.40.gz
+-rw-r-----  1 nginx adm         35615 11월 13 06:25 error.log.41.gz
+-rw-r-----  1 nginx adm         15154 11월 12 06:25 error.log.42.gz
+-rw-r-----  1 nginx adm         16190 11월 11 06:25 error.log.43.gz
+-rw-r-----  1 nginx adm          8983 11월 10 06:25 error.log.44.gz
+-rw-r-----  1 nginx adm          4296 11월  9 06:25 error.log.45.gz
+-rw-r-----  1 nginx adm        265284 11월  8 06:25 error.log.46.gz
+-rw-r-----  1 nginx adm         75389 11월  7 06:25 error.log.47.gz
+-rw-r-----  1 nginx adm         16903 11월  6 06:25 error.log.48.gz
+-rw-r-----  1 nginx adm         55206 11월  5 06:25 error.log.49.gz
+-rw-r-----  1 nginx adm         57263 12월 19 06:25 error.log.5.gz
+-rw-r-----  1 nginx adm         29825 11월  4 06:25 error.log.50.gz
+-rw-r-----  1 nginx adm          6118 11월  3 06:25 error.log.51.gz
+-rw-r-----  1 nginx adm        138511 11월  2 06:25 error.log.52.gz
+-rw-r-----  1 nginx adm          8838 12월 18 06:25 error.log.6.gz
+-rw-r-----  1 nginx adm          5847 12월 17 06:25 error.log.7.gz
+-rw-r-----  1 nginx adm         90413 12월 16 06:25 error.log.8.gz
+-rw-r-----  1 nginx adm          5210 12월 15 06:25 error.log.9.gz
+
+### logrotate nginx
+total 60
+drwxr-xr-x   2 root root 4096  9월 15  2023 .
+drwxr-xr-x 101 root root 4096 12월 22 14:08 ..
+-rw-r--r--   1 root root  120 11월  3  2017 alternatives
+-rw-r--r--   1 root root  126 11월 21  2017 apport
+-rw-r--r--   1 root root  173  4월 20  2018 apt
+-rw-r--r--   1 root root  160  8월 26  2020 chrony
+-rw-r--r--   1 root root  112 11월  3  2017 dpkg
+-rw-r--r--   1 root root   77  7월 18  2012 hp-health
+-rw-r--r--   1 root root   77  9월 10  2013 hp-snmp-agents
+-rw-r--r--   1 root root  146  6월  6  2018 lxd
+-rw-r--r--   1 root root  351 11월 16  2021 nginx
+-rw-r--r--   1 root root  501  1월 15  2018 rsyslog
+-rw-r--r--   1 root root  178  8월 16  2017 ufw
+-rw-r--r--   1 root root  235  7월 18  2018 unattended-upgrades
+-rw-r--r--   1 root root  153  9월 29  2022 zabbix-agent
+/var/log/nginx/*.log {
+        daily
+        missingok
+        rotate 52
+        compress
+        delaycompress
+        notifempty
+        create 640 nginx adm
+        sharedscripts
+        postrotate
+                if [ -f /var/run/nginx.pid ]; then
+                        kill -USR1 `cat /var/run/nginx.pid`
+                fi
+        endscript
+}
+
+### nginx log sizes
+4.0K	/var/log/nginx/error.log.10.gz
+8.0K	/var/log/nginx/error.log.11.gz
+8.0K	/var/log/nginx/error.log.16.gz
+8.0K	/var/log/nginx/error.log.17.gz
+8.0K	/var/log/nginx/error.log.19.gz
+8.0K	/var/log/nginx/error.log.2.gz
+8.0K	/var/log/nginx/error.log.23.gz
+8.0K	/var/log/nginx/error.log.24.gz
+8.0K	/var/log/nginx/error.log.25.gz
+8.0K	/var/log/nginx/error.log.26.gz
+8.0K	/var/log/nginx/error.log.28.gz
+8.0K	/var/log/nginx/error.log.3.gz
+8.0K	/var/log/nginx/error.log.30.gz
+8.0K	/var/log/nginx/error.log.45.gz
+8.0K	/var/log/nginx/error.log.51.gz
+8.0K	/var/log/nginx/error.log.7.gz
+8.0K	/var/log/nginx/error.log.9.gz
+12K	/var/log/nginx/error.log.12.gz
+12K	/var/log/nginx/error.log.29.gz
+12K	/var/log/nginx/error.log.4.gz
+12K	/var/log/nginx/error.log.44.gz
+12K	/var/log/nginx/error.log.6.gz
+16K	/var/log/nginx/error.log.13.gz
+16K	/var/log/nginx/error.log.20.gz
+16K	/var/log/nginx/error.log.27.gz
+16K	/var/log/nginx/error.log.42.gz
+16K	/var/log/nginx/error.log.43.gz
+20K	/var/log/nginx/error.log.48.gz
+24K	/var/log/nginx/error.log.36.gz
+28K	/var/log/nginx/error.log.15.gz
+28K	/var/log/nginx/error.log.18.gz
+28K	/var/log/nginx/error.log.22.gz
+32K	/var/log/nginx/error.log.14.gz
+32K	/var/log/nginx/error.log.21.gz
+32K	/var/log/nginx/error.log.50.gz
+36K	/var/log/nginx/error.log.41.gz
+56K	/var/log/nginx/error.log.35.gz
+56K	/var/log/nginx/error.log.49.gz
+56K	/var/log/nginx/error.log.5.gz
+72K	/var/log/nginx/error.log
+76K	/var/log/nginx/error.log.47.gz
+92K	/var/log/nginx/error.log.8.gz
+100K	/var/log/nginx/error.log.1
+136K	/var/log/nginx/error.log.52.gz
+144K	/var/log/nginx/error.log.38.gz
+172K	/var/log/nginx/error.log.32.gz
+256K	/var/log/nginx/error.log.31.gz
+260K	/var/log/nginx/error.log.46.gz
+324K	/var/log/nginx/error.log.39.gz
+328K	/var/log/nginx/error.log.33.gz
+328K	/var/log/nginx/error.log.37.gz
+364K	/var/log/nginx/error.log.34.gz
+372K	/var/log/nginx/error.log.40.gz
+28M	/var/log/nginx/access.log.9.gz
+29M	/var/log/nginx/access.log.30.gz
+29M	/var/log/nginx/access.log.44.gz
+30M	/var/log/nginx/access.log.13.gz
+30M	/var/log/nginx/access.log.16.gz
+30M	/var/log/nginx/access.log.2.gz
+30M	/var/log/nginx/access.log.51.gz
+31M	/var/log/nginx/access.log.10.gz
+31M	/var/log/nginx/access.log.11.gz
+31M	/var/log/nginx/access.log.12.gz
+31M	/var/log/nginx/access.log.14.gz
+31M	/var/log/nginx/access.log.15.gz
+31M	/var/log/nginx/access.log.17.gz
+31M	/var/log/nginx/access.log.23.gz
+31M	/var/log/nginx/access.log.27.gz
+31M	/var/log/nginx/access.log.29.gz
+31M	/var/log/nginx/access.log.3.gz
+31M	/var/log/nginx/access.log.4.gz
+31M	/var/log/nginx/access.log.41.gz
+31M	/var/log/nginx/access.log.43.gz
+31M	/var/log/nginx/access.log.45.gz
+31M	/var/log/nginx/access.log.5.gz
+31M	/var/log/nginx/access.log.50.gz
+31M	/var/log/nginx/access.log.6.gz
+31M	/var/log/nginx/access.log.7.gz
+31M	/var/log/nginx/access.log.8.gz
+32M	/var/log/nginx/access.log.18.gz
+32M	/var/log/nginx/access.log.19.gz
+32M	/var/log/nginx/access.log.20.gz
+32M	/var/log/nginx/access.log.21.gz
+32M	/var/log/nginx/access.log.22.gz
+32M	/var/log/nginx/access.log.24.gz
+32M	/var/log/nginx/access.log.25.gz
+32M	/var/log/nginx/access.log.26.gz
+32M	/var/log/nginx/access.log.28.gz
+32M	/var/log/nginx/access.log.35.gz
+32M	/var/log/nginx/access.log.36.gz
+32M	/var/log/nginx/access.log.37.gz
+32M	/var/log/nginx/access.log.38.gz
+32M	/var/log/nginx/access.log.42.gz
+32M	/var/log/nginx/access.log.47.gz
+32M	/var/log/nginx/access.log.48.gz
+32M	/var/log/nginx/access.log.49.gz
+32M	/var/log/nginx/access.log.52.gz
+33M	/var/log/nginx/access.log.31.gz
+33M	/var/log/nginx/access.log.32.gz
+33M	/var/log/nginx/access.log.33.gz
+33M	/var/log/nginx/access.log.39.gz
+33M	/var/log/nginx/access.log.40.gz
+33M	/var/log/nginx/access.log.46.gz
+34M	/var/log/nginx/access.log.34.gz
+295M	/var/log/nginx/access.log
+985M	/var/log/nginx/access.log.1

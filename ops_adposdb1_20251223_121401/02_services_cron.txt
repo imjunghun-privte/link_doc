@@ -1,0 +1,118 @@
+### user crontab
+
+
+#*/2 9-23 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_itemprop/repeater.sh >> /home/daiso/agent/adcollector/adc_itemprop/cron.log
+#*/2 9-23 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_itempropbase/repeater.sh >> /home/daiso/agent/adcollector/adc_itempropbase/cron.log
+#*/2 9-23 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_itempropset/repeater.sh >> /home/daiso/agent/adcollector/adc_itempropset/cron.log
+#*/2 9-23 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_itemsal/repeater.sh >> /home/daiso/agent/adcollector/adc_itemsal/cron.log
+
+# 00 6 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_itemcat/repeater.sh >> /home/daiso/agent/adcollector/adc_itemcat/cron.log
+# 0 6 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc-items/repeater.sh >> /home/daiso/agent/adcollector/adc-items/cron.log
+# 30 6,13,17,19,21 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc-items-nts/repeater.sh >> /home/daiso/agent/adcollector/adc-items-nts/cron.log
+# 45 6,13,17,19,21 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_itemend/repeater.sh >> /home/daiso/agent/adcollector/adc_itemend/cron.log
+# 35 6 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_shpmstm/repeater.sh >> /home/daiso/agent/adcollector/adc_shpmstm/cron.log
+# 35 6 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_poshrsm/repeater.sh >> /home/daiso/agent/adcollector/adc_poshrsm/cron.log
+# */2 9-23 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_pos002m/repeater.sh >> /home/daiso/agent/adcollector/adc_pos002m/cron.log
+
+# 45 10,23 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_setlogmid_scomod/repeater.sh >> /home/daiso/agent/adcollector/adc_setlogmid_scomod/cron.log
+# 45 10,23 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_setlogmid_posmod/repeater.sh >> /home/daiso/agent/adcollector/adc_setlogmid_posmod/cron.log
+# 45 10,23 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_setlogclose/repeater.sh >> /home/daiso/agent/adcollector/adc_setlogclose/cron.log
+# */15 0,9,10,11,21,22,23 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_setloglogin/repeater.sh >> /home/daiso/agent/adcollector/adc_setloglogin/cron.log
+# */15 0,9,10,11,21,22,23 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_setlogsafe/repeater.sh >> /home/daiso/agent/adcollector/adc_setlogsafe/cron.log
+
+# 10 0 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_posnts/repeater.sh >> /home/daiso/agent/adcollector/adc_posnts/cron.log
+# 40,50 0 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_possco/repeater.sh >> /home/daiso/agent/adcollector/adc_possco/cron.log
+# 0 6 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_nts_mkt001t/repeater.sh >> /home/daiso/agent/adcollector/adc_nts_mkt001t/cron.log
+# 0 6 * * * . $HOME/.bash_profile; /home/daiso/agent/adcollector/adc_loginout/repeater.sh >> /home/daiso/agent/adcollector/adc_loginout/cron.log
+
+#25 09 * * * find /usr/local/kafka_2.12-2.2.0/logs -name '*.log' -mtime +15 -exec rm -f {} \;
+#25 09 * * * find /usr/local/kafka_2.12-2.2.0/logs -name 'server.log.*' -mtime +15 -exec rm -f {} \;
+#25 09 * * * find /usr/local/kafka_2.12-2.2.0/logs -name 'controller.log.*' -mtime +15 -exec rm -f {} \;
+#25 09 * * * find /usr/local/kafka_2.12-2.2.0/logs -name 'state-change.log.*' -mtime +15 -exec rm -f {} \;
+
+*/5 * * * * /home/daiso/agent/tools/alert-cpu.sh 80 >> /home/daiso/agent/tools/alert-cpu.log
+
+### root crontab
+00 01 * * * find /usr/local/kafka/logs -name '*.log' -mtime +60 -exec rm -f {} \;
+00 01 * * * find /usr/local/kafka/logs -name 'server.log.*' -mtime +30 -exec rm -f {} \;
+00 01 * * * find /usr/local/kafka/logs -name 'controller.log.*' -mtime +60 -exec rm -f {} \;
+00 01 * * * find /usr/local/kafka/logs -name 'state-change.log.*' -mtime +60 -exec rm -f {} \;
+00 01 * * * find /usr/local/kafka/logs -name 'log-cleaner.log.*' -mtime +60 -exec rm -f {} \;
+0 0 * * * find /data/postgresql/12/data/pg_wal * -mtime +7 -exec rm -rf {} \;
+
+#30 02 * * * /root/tools/archive/adpos-delete-old.sh >> cron.log
+#30 02 * * * /root/tools/fix/adpos-mversion-fix.sh >> cron.log
+
+### PostgreSQL Row DEL Scheduler ###
+00 07 * * * su - postgres -c "/home/postgres/pg_del.sh" >> /home/postgres/del.log
+
+
+# 상품정보 연계(유통기한)
+# 0 5 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_itemexpiry/repeater.sh >> /home/daiso/agent/adcollector/adc_itemexpiry/cron.log"
+
+# 상품판매속성
+#*/2 9-23 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_itemprop/repeater.sh >> /home/daiso/agent/adcollector/adc_itemprop/cron.log"
+#*/2 9-23 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_itempropbase/repeater.sh >> /home/daiso/agent/adcollector/adc_itempropbase/cron.log"
+#*/2 9-23 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_itempropset/repeater.sh >> /home/daiso/agent/adcollector/adc_itempropset/cron.log"
+#*/2 9-23 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_itemsal/repeater.sh >> /home/daiso/agent/adcollector/adc_itemsal/cron.log"
+
+# 00 6 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_itemcat/repeater.sh >> /home/daiso/agent/adcollector/adc_itemcat/cron.log"
+# 0 6 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc-items/repeater.sh >> /home/daiso/agent/adcollector/adc-items/cron.log"
+# 45 6,13,17,19,21 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_itemend/repeater.sh >> /home/daiso/agent/adcollector/adc_itemend/cron.log"
+# 35 6 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_shpmstm/repeater.sh >> /home/daiso/agent/adcollector/adc_shpmstm/cron.log"
+
+# 35 6 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_poshrsm/repeater.sh >> /home/daiso/agent/adcollector/adc_poshrsm/cron.log"
+
+# 이벤트푸시설정
+# */2 9-23 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_eventpush/repeater.sh >> /home/daiso/agent/adcollector/adc_eventpush/cron.log"
+
+#45 10,23 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_setlogmid_scomod/repeater.sh >> /home/daiso/agent/adcollector/adc_setlogmid_scomod/cron.log"
+#45 10,23 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_setlogmid_posmod/repeater.sh >> /home/daiso/agent/adcollector/adc_setlogmid_posmod/cron.log"
+#45 10,23 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_setlogclose/repeater.sh >> /home/daiso/agent/adcollector/adc_setlogclose/cron.log"
+#*/15 0,9,10,11,21,22,23 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_setloglogin/repeater.sh >> /home/daiso/agent/adcollector/adc_setloglogin/cron.log"
+#*/15 0,9,10,11,15,21,22,23 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_setlogsafe/repeater.sh >> /home/daiso/agent/adcollector/adc_setlogsafe/cron.log"
+
+# 20,40,50 0,10 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_possco/repeater.sh >> /home/daiso/agent/adcollector/adc_possco/cron.log"
+# 20,40,50 0,10 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_possco-sts/repeater.sh >> /home/daiso/agent/adcollector/adc_possco-sts/cron.log"
+
+# 0 6 * * * su daiso -c ". /home/daiso/.bash_profile; /home/daiso/agent/adcollector/adc_loginout/repeater.sh >> /home/daiso/agent/adcollector/adc_loginout/cron.log"
+# Start of Acronis scheduler section. Please don't edit it manually.
+0 3 * * 0,1,2,3,4,5,6 /usr/lib/Acronis/Schedule/schedwrapper -m cron -i 1
+# End of Acronis scheduler section.
+
+### /etc/cron*
+-rw-------. 1 root root   0  8월  9  2019 /etc/cron.deny
+-rw-r--r--. 1 root root 451  6월 10  2014 /etc/crontab
+
+/etc/cron.d:
+합계 24
+drwxr-xr-x.   2 root root   54  4월 16  2020 .
+drwxr-xr-x. 150 root root 8192 11월  3 17:14 ..
+-rw-r--r--.   1 root root  128  8월  9  2019 0hourly
+-rw-r--r--.   1 root root  108  8월  6  2019 raid-check
+-rw-------.   1 root root  235  8월  9  2019 sysstat
+
+/etc/cron.daily:
+합계 24
+drwxr-xr-x.   2 root root   57  4월 16  2020 .
+drwxr-xr-x. 150 root root 8192 11월  3 17:14 ..
+-rwx------.   1 root root  219 10월 31  2018 logrotate
+-rwxr-xr-x.   1 root root  618 10월 30  2018 man-db.cron
+-rwx------.   1 root root  208  4월 11  2018 mlocate
+
+/etc/cron.hourly:
+합계 20
+drwxr-xr-x.   2 root root   41  7월 14 13:55 .
+drwxr-xr-x. 150 root root 8192 11월  3 17:14 ..
+-rwxr-xr-x.   1 root root  392  8월  9  2019 0anacron
+-rwxr-xr-x    1 root root   56  7월 22 10:50 ocarda.cron
+
+/etc/cron.monthly:
+합계 12
+drwxr-xr-x.   2 root root    6  6월 10  2014 .
+drwxr-xr-x. 150 root root 8192 11월  3 17:14 ..
+
+/etc/cron.weekly:
+합계 12
+drwxr-xr-x.   2 root root    6  6월 10  2014 .
+drwxr-xr-x. 150 root root 8192 11월  3 17:14 ..

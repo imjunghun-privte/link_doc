@@ -1,0 +1,8 @@
+304:    listen       25501 ssl;
+305:    server_name  pos.daiso.co.kr pos1.daiso.co.kr 175.209.34.75 adposap02;
+342:    ssl_certificate      /data/certs/daiso.co.kr/cert.pem;
+343:    ssl_certificate_key  /data/certs/daiso.co.kr/key_dec.pem;
+361:    listen       35504 ssl;
+362:    server_name  pos.daiso.co.kr pos1.daiso.co.kr 175.209.34.75 adposap02;
+555:    ssl_certificate      /data/certs/daiso.co.kr/cert.pem;
+556:    ssl_certificate_key  /data/certs/daiso.co.kr/key_dec.pem;

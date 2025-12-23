@@ -1,0 +1,95 @@
+### running services
+UNIT                               LOAD   ACTIVE SUB     DESCRIPTION                                                                  
+accounts-daemon.service            loaded active running Accounts Service                                                             
+acronis_ams.service                loaded active running Acronis Management Server                                                    
+acronis_asm.service                loaded active running Acronis service manager                                                      
+acronis_mms.service                loaded active running Acronis machine management service                                           
+acronis_monitoring_service.service loaded active running Acronis Monitoring Server Service                                            
+acronis_rsm.service                loaded active running ARSM                                                                         
+acronis_zmqgw.service              loaded active running Acronis ZMQ Gateway                                                          
+atd.service                        loaded active running Deferred execution scheduler                                                 
+chrony.service                     loaded active running chrony, an NTP client/server                                                 
+cron.service                       loaded active running Regular background program processing daemon                                 
+ctsclient.service                  loaded active running ctsclient.service                                                            
+dbus.service                       loaded active running D-Bus System Message Bus                                                     
+dsm_om_connsvc.service             loaded active running DSM SA Connection Service                                                    
+dsm_sa_datamgrd.service            loaded active running Systems Management Data Engine                                               
+dsm_sa_eventmgrd.service           loaded active running Systems Management Event Management                                          
+dsm_sa_snmpd.service               loaded active running Systems Management SNMP                                                      
+elastic-agent.service              loaded active running Elastic Agent is a unified agent to observe, monitor and protect your system.
+getty@tty1.service                 loaded active running Getty on tty1                                                                
+irqbalance.service                 loaded active running irqbalance daemon                                                            
+lvm2-lvmetad.service               loaded active running LVM2 metadata daemon                                                         
+lxcfs.service                      loaded active running FUSE filesystem for LXC                                                      
+networkd-dispatcher.service        loaded active running Dispatcher daemon for systemd-networkd                                       
+nginx.service                      loaded active running nginx - high performance web server                                          
+polkit.service                     loaded active running Authorization Manager                                                        
+rsyslog.service                    loaded active running System Logging Service                                                       
+snmpd.service                      loaded active running Simple Network Management Protocol (SNMP) Daemon.                            
+ssh.service                        loaded active running OpenBSD Secure Shell server                                                  
+supportassist.service              loaded active running Dell EMC SupportAssist Enterprise customers                                  
+supportassistdatabase.service      loaded active running Dell EMC SupportAssist Enterprise Database Service                           
+swiagentd.service                  loaded active running SolarWinds Agent Service                                                     
+systemd-hostnamed.service          loaded active running Hostname Service                                                             
+systemd-journald.service           loaded active running Journal Service                                                              
+systemd-logind.service             loaded active running Login Service                                                                
+systemd-networkd.service           loaded active running Network Service                                                              
+systemd-resolved.service           loaded active running Network Name Resolution                                                      
+systemd-timedated.service          loaded active running Time & Date Service                                                          
+systemd-udevd.service              loaded active running udev Kernel Device Manager                                                   
+unattended-upgrades.service        loaded active running Unattended Upgrades Shutdown                                                 
+user@1002.service                  loaded active running User Manager for UID 1002                                                    
+zabbix-agent.service               loaded active running Zabbix Agent                                                                 
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+40 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+
+### nginx status
+● nginx.service - nginx - high performance web server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+   Active: active (running) since Sun 2025-08-24 05:40:59 KST; 3 months 29 days ago
+     Docs: https://nginx.org/en/docs/
+  Process: 4757 ExecStart=/usr/sbin/nginx -c /etc/nginx/nginx.conf (code=exited, status=0/SUCCESS)
+ Main PID: 4858 (nginx)
+    Tasks: 33 (limit: 4915)
+   CGroup: /system.slice/nginx.service
+           ├─4858 nginx: master process /usr/sbin/nginx -c /etc/nginx/nginx.conf
+           ├─4860 nginx: worker process
+           ├─4862 nginx: worker process
+           ├─4863 nginx: worker process
+           ├─4864 nginx: worker process
+           ├─4865 nginx: worker process
+           ├─4866 nginx: worker process
+           ├─4867 nginx: worker process
+           ├─4868 nginx: worker process
+           ├─4869 nginx: worker process
+           ├─4870 nginx: worker process
+           ├─4871 nginx: worker process
+           ├─4872 nginx: worker process
+           ├─4873 nginx: worker process
+           ├─4874 nginx: worker process
+           ├─4875 nginx: worker process
+           ├─4877 nginx: worker process
+           ├─4880 nginx: worker process
+           ├─4881 nginx: worker process
+           ├─4882 nginx: worker process
+           ├─4883 nginx: worker process
+           ├─4884 nginx: worker process
+           ├─4885 nginx: worker process
+           ├─4886 nginx: worker process
+           ├─4887 nginx: worker process
+           ├─4888 nginx: worker process
+           ├─4889 nginx: worker process
+           ├─4890 nginx: worker process
+           ├─4891 nginx: worker process
+           ├─4893 nginx: worker process
+           ├─4895 nginx: worker process
+           ├─4896 nginx: worker process
+           └─4897 nginx: worker process
+
+Aug 24 05:40:59 adposap01 systemd[1]: Starting nginx - high performance web server...
+Aug 24 05:40:59 adposap01 systemd[1]: Started nginx - high performance web server.

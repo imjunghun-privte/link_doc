@@ -1,0 +1,25 @@
+### nginx logs
+
+### logrotate nginx
+합계 80
+drwxr-xr-x.   2 root root  264  7월 14 13:55 .
+drwxr-xr-x. 150 root root 8192 11월  3 17:14 ..
+-rw-r--r--.   1 root root   91  8월  6  2019 bootlog
+-rw-r--r--.   1 root root  160  9월 19  2018 chrony
+-rw-r--r--.   1 root root   71  8월  6  2019 cups
+-rw-r--r--.   1 root root  758  8월  8  2019 glusterfs
+-rw-r--r--.   1 root root  172  9월 30  2016 iscsiuiolog
+-rw-r--r--.   1 root root  165  8월  9  2019 libvirtd
+-rw-r--r--.   1 root root  142  8월  9  2019 libvirtd.qemu
+-rw-r--r--.   1 root root  106  4월 11  2018 numad
+-rw-r--r--    1 root root   86  7월 22 10:50 ocarda
+-rw-r--r--.   1 root root  136  6월 10  2014 ppp
+-rw-r--r--.   1 root root  408  8월  3  2017 psacct
+-rw-r--r--.   1 root root  115  8월  9  2019 samba
+-rw-r--r--.   1 root root  237  8월 13  2019 sssd
+-rw-r--r--.   1 root root  224  8월  6  2019 syslog
+-rw-r--r--.   1 root root  100 10월 31  2018 wpa_supplicant
+-rw-r--r--.   1 root root  103  8월  8  2019 yum
+-rw-r--r--    1 root root  132  9월 29  2022 zabbix-agent
+
+### nginx log sizes

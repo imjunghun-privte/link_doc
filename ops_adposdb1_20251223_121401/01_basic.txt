@@ -1,0 +1,55 @@
+### hostname / os / kernel
+   Static hostname: adposdb1
+         Icon name: computer-server
+           Chassis: server
+        Machine ID: fe5cf367f69e45efa8d61d38119483d9
+           Boot ID: 76418ea550a04a23aae819a45957bfde
+  Operating System: CentOS Linux 7 (Core)
+       CPE OS Name: cpe:/o:centos:centos:7
+            Kernel: Linux 3.10.0-1062.el7.x86_64
+      Architecture: x86-64
+
+NAME="CentOS Linux"
+VERSION="7 (Core)"
+ID="centos"
+ID_LIKE="rhel fedora"
+VERSION_ID="7"
+PRETTY_NAME="CentOS Linux 7 (Core)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:centos:centos:7"
+HOME_URL="https://www.centos.org/"
+BUG_REPORT_URL="https://bugs.centos.org/"
+
+CENTOS_MANTISBT_PROJECT="CentOS-7"
+CENTOS_MANTISBT_PROJECT_VERSION="7"
+REDHAT_SUPPORT_PRODUCT="centos"
+REDHAT_SUPPORT_PRODUCT_VERSION="7"
+
+
+Linux adposdb1 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+### time
+      Local time: 화 2025-12-23 12:14:07 KST
+  Universal time: 화 2025-12-23 03:14:07 UTC
+        RTC time: 화 2025-12-23 03:14:07
+       Time zone: Asia/Seoul (KST, +0900)
+     NTP enabled: yes
+NTP synchronized: yes
+ RTC in local TZ: no
+      DST active: n/a
+
+### network
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens10f0          UP             10.10.10.39/24 fe80::d4f2:8999:3021:35a8/64 
+ens1f0           DOWN           
+ens10f1          DOWN           
+ens1f1           UP             172.16.10.127/24 fe80::4adf:37ff:fe4b:d0c8/64 
+ens10f2          DOWN           
+ens10f3          DOWN           
+virbr0           DOWN           192.168.122.1/24 
+virbr0-nic       DOWN           
+
+default via 172.16.10.1 dev ens1f1 proto static metric 103 
+10.10.10.0/24 dev ens10f0 proto kernel scope link src 10.10.10.39 metric 100 
+172.16.10.0/24 dev ens1f1 proto kernel scope link src 172.16.10.127 metric 103 
+192.168.122.0/24 dev virbr0 proto kernel scope link src 192.168.122.1 

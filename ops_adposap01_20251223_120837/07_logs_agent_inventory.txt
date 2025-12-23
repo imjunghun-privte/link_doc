@@ -1,0 +1,29 @@
+### agent logs
+/home/daiso/agent/adposv2/backup/event/grpc/pos/logs/agent.log
+/home/daiso/agent/adposv2/backup/event/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/refundreason/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/version/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/master/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/receipt/api/pos/logs/agent.log
+/home/daiso/agent/adpos/event/producers/logs/agent.log
+/home/daiso/agent/adpos/event/pusher_ws/logs/agent.log
+/home/daiso/agent/adpos/pos/logs/agent.log
+/home/daiso/agent/adpos/message/pusher/logs/agent.log
+/home/daiso/agent/adpos/admin/logs/agent.log
+/home/daiso/agent/adpos/poslog/logs/agent.log
+/home/daiso/agent/cts/ctsclient/logs/agent.log
+
+### recent logs
+2025-12-23 12:08:38.0678710630 /home/daiso/agent/adpos/event/pusher_ws/logs/agent.log
+2025-12-23 12:08:30.6957152280 /home/daiso/agent/adpos/pos/logs/agent.log
+2025-12-23 12:08:29.0956814070 /home/daiso/agent/adposv2/receipt/api/pos/logs/agent.log
+2025-12-23 12:08:28.6916728660 /home/daiso/agent/adposv2/master/api/pos/logs/agent.log
+2025-12-23 12:08:27.7956539260 /home/daiso/agent/adpos/message/pusher/logs/agent.log
+2025-12-23 12:08:27.7156522350 /home/daiso/agent/adpos/admin/logs/agent.log
+2025-12-23 12:08:25.1515980360 /home/daiso/agent/adposv2/version/api/pos/logs/agent.log
+2025-12-23 12:08:18.2394519250 /home/daiso/agent/adpos/poslog/logs/agent.log
+2025-12-23 11:40:32.2602361350 /home/daiso/agent/adposv2/refundreason/api/pos/logs/agent.log
+2025-12-22 16:54:31.0121136660 /home/daiso/agent/adpos/event/producers/logs/agent.log
+2025-08-24 07:11:02.5565512400 /home/daiso/agent/cts/ctsclient/logs/agent.log
+2022-12-08 15:06:26.8397892150 /home/daiso/agent/adposv2/backup/event/api/pos/logs/agent.log
+2022-12-08 15:06:12.9554891430 /home/daiso/agent/adposv2/backup/event/grpc/pos/logs/agent.log

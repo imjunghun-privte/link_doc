@@ -1,0 +1,105 @@
+### agent tree
+total 40
+drwxrwxr-x 10 daiso daiso 4096 10월 19  2022 .
+drwxr-x--- 17 daiso daiso 4096 12월 23 12:12 ..
+drwxrwxr-x  7 daiso daiso 4096 12월 30  2022 adpos
+drwxrwxr-x  8 daiso daiso 4096  8월 28  2023 adposv2
+drwxrwxr-x  4 daiso daiso 4096  8월 24 11:55 airflow
+drwxrwxr-x  3 daiso daiso 4096  6월 30  2022 cts
+drwxrwxr-x  6 daiso daiso 4096  6월  2  2022 hadoop
+drwxrwxr-x  3 daiso daiso 4096  3월  2  2022 python
+drwxrwxr-x  3 daiso daiso 4096  2월 15  2022 test
+drwxrwxr-x  4 daiso daiso 4096  2월 28  2022 venv
+
+### agent start candidates
+/home/daiso/agent/test/push_test_dag.sh
+/home/daiso/agent/cts/ctsclient/stop.sh
+/home/daiso/agent/cts/ctsclient/start.sh
+/home/daiso/agent/cts/ctsclient/ctsclient.service
+/home/daiso/agent/adpos/admin/stop.sh
+/home/daiso/agent/adpos/admin/shutdown.sh
+/home/daiso/agent/adpos/admin/startup.sh
+/home/daiso/agent/adpos/admin/repeater.sh
+/home/daiso/agent/adpos/poslog/stop.sh
+/home/daiso/agent/adpos/poslog/shutdown.sh
+/home/daiso/agent/adpos/poslog/startup.sh
+/home/daiso/agent/adpos/poslog/repeater.sh
+/home/daiso/agent/adpos/event/pusher_ws/stop.sh
+/home/daiso/agent/adpos/event/pusher_ws/shutdown.sh
+/home/daiso/agent/adpos/event/pusher_ws/startup.sh
+/home/daiso/agent/adpos/event/pusher_ws/repeater.sh
+/home/daiso/agent/adpos/event/producers/stop.sh
+/home/daiso/agent/adpos/event/producers/shutdown.sh
+/home/daiso/agent/adpos/event/producers/startup.sh
+/home/daiso/agent/adpos/event/producers/repeater.sh
+/home/daiso/agent/adpos/message/pusher/stop.sh
+/home/daiso/agent/adpos/message/pusher/shutdown.sh
+/home/daiso/agent/adpos/message/pusher/startup.sh
+/home/daiso/agent/adpos/message/pusher/repeater.sh
+/home/daiso/agent/adpos/pos/stop.sh
+/home/daiso/agent/adpos/pos/shutdown.sh
+/home/daiso/agent/adpos/pos/startup.sh
+/home/daiso/agent/adpos/pos/repeater.sh
+/home/daiso/agent/hadoop/mapreduce/sales/receiptheaditem.sh
+/home/daiso/agent/hadoop/mapreduce/event/eventitemfail.sh
+/home/daiso/agent/hadoop/mapreduce/event/eventitemfailreceipt.sh
+/home/daiso/agent/hadoop/mapreduce/event/eventitemfailreceiptitem.sh
+/home/daiso/agent/hadoop/mapreduce/event/eventreceipt.sh
+/home/daiso/agent/hadoop/mapreduce/event/itemfail.sh
+/home/daiso/agent/hadoop/sqoop/import/import_event.sh
+/home/daiso/agent/hadoop/sqoop/import/import_recitem.sh
+/home/daiso/agent/hadoop/sqoop/import/import_rechead.sh
+/home/daiso/agent/hadoop/sqoop/export/export_eventitemfailreceipt.sh
+/home/daiso/agent/hadoop/sqoop/export/export_eventreceipt.sh
+/home/daiso/agent/hadoop/sqoop/export/export_eventitemfail.sh
+/home/daiso/agent/hadoop/op/delete_old.sh
+/home/daiso/agent/hadoop/sparkjob/date_loop.sh
+/home/daiso/agent/hadoop/sparkjob/eventreceiptheadjoin/eventreceiptheadjoin.sh
+/home/daiso/agent/hadoop/sparkjob/eventaggbyposhour/eventaggbyposhour.sh
+/home/daiso/agent/hadoop/sparkjob/date_export_01_loop.sh
+/home/daiso/agent/hadoop/sparkjob/itemcataggbymember/itemcataggbymember.sh
+/home/daiso/agent/hadoop/sparkjob/itemcataggbymember/itemcataggbymember-monthly.sh
+/home/daiso/agent/hadoop/sparkjob/itemlossagg/itemlossagg.sh
+/home/daiso/agent/hadoop/sparkjob/date_export_loop.sh
+/home/daiso/agent/hadoop/sparkjob/emprespagg/emprespagg.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/import_s_rec_itm.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/import_s_rec_appr.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/import_pos.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/import_event.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/import_s_rec_head.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_eventaggbypos.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_itemcatmidaggbymember_monthly.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/import_item.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/import_s_rec_item.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_emprespagg.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/import_posconf.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_salesaggbydow.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_receiptappragg.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_itemcataggbymember_monthly.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_itemcataggbymember.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_export_itemlossagg.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_salesaggbydow_monthly.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/import_dm_mbr.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_itemcatmidaggbymember.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_itemlossagg.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_eventaggbyposhour.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/export_receiptheadagg_monthly.sh
+/home/daiso/agent/hadoop/sparkjob/simplejob/import_pshpsled.sh
+/home/daiso/agent/hadoop/sparkjob/date_itemcat_loop.sh
+/home/daiso/agent/hadoop/sparkjob/itemlossaggbyreceipt/itemlossaggbyreceipt.sh
+/home/daiso/agent/hadoop/sparkjob/receiptapprheadjoin/receiptapprheadjoin.sh
+/home/daiso/agent/hadoop/sparkjob/itemlossaggbymember/itemlossaggbymember-monthly.sh
+/home/daiso/agent/hadoop/sparkjob/itemlossaggbymember/itemlossaggbymember.sh
+/home/daiso/agent/hadoop/sparkjob/itemlossaggbymember/test.sh
+/home/daiso/agent/hadoop/sparkjob/receiptheadagg/receiptheadagg-monthly.sh
+/home/daiso/agent/hadoop/sparkjob/receiptheadagg/receiptheadagg.sh
+/home/daiso/agent/hadoop/sparkjob/eventaggbyposhour-test/eventaggbyposhour.sh
+/home/daiso/agent/hadoop/sparkjob/receiptitemheadjoin/receiptapprheadjoin.sh
+/home/daiso/agent/hadoop/sparkjob/receiptitemheadjoin/receiptitemheadjoin.sh
+/home/daiso/agent/hadoop/sparkjob/salesaggbydow/salesaggbydow-monthly.sh
+/home/daiso/agent/hadoop/sparkjob/salesaggbydow/salesaggbydow.sh
+/home/daiso/agent/hadoop/sparkjob/itemcatmidaggbymember/itemcatmidaggbymember.sh
+/home/daiso/agent/hadoop/sparkjob/itemcatmidaggbymember/itemcatmidaggbymember-monthly.sh
+/home/daiso/agent/hadoop/sparkjob/receiptappragg/receiptappragg.sh
+/home/daiso/agent/hadoop/sparkjob/eventaggbypos/eventaggbypos.sh
+/home/daiso/agent/hadoop/sparkjob/date_export_02_loop.sh

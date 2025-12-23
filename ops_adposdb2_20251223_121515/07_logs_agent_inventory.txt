@@ -1,0 +1,253 @@
+### agent logs
+/home/daiso/agent/possale/consumer/backup/refundreason/logs/agent.log
+/home/daiso/agent/possale/consumer/receipt/ora/logs/agent.log
+/home/daiso/agent/possale/consumer/receipt/ms/logs/agent.log
+/home/daiso/agent/possale/consumer/setlog/logs/agent.log
+/home/daiso/agent/possale/backup/etl/receipt_v2/ntsaff/def/logs/agent.log
+/home/daiso/agent/possale/backup/etl/receipt_v2/ntsaff/def/cron.log
+/home/daiso/agent/possale/backup/etl/receipt_v2/ntsaff/fail/logs/agent.log
+/home/daiso/agent/possale/backup/etl/receipt_v2/ntsaff/fail/cron.log
+/home/daiso/agent/possale/backup/etl/receipt_v2/ntsdir/def/logs/agent.log
+/home/daiso/agent/possale/backup/etl/receipt_v2/ntsdir/def/cron.log
+/home/daiso/agent/possale/backup/etl/receipt_v2/ntsdir/fail/logs/agent.log
+/home/daiso/agent/possale/backup/etl/receipt_v2/ntsdir/fail/cron.log
+/home/daiso/agent/possale/backup/etl/receipt_v2/ntsdist/def/logs/agent.log
+/home/daiso/agent/possale/backup/etl/receipt_v2/ntsdist/def/cron.log
+/home/daiso/agent/possale/backup/etl/receipt_v2/ntsdist/fail/logs/agent.log
+/home/daiso/agent/possale/backup/etl/receipt_v2/ntsdist/fail/cron.log
+/home/daiso/agent/possale/backup/etl/backup/eodlog/logs/agent.log
+/home/daiso/agent/possale/backup/etl/backup/eodlog/cron.log
+/home/daiso/agent/possale/backup/etl/eodlog/dist/def/logs/agent.log
+/home/daiso/agent/possale/backup/etl/eodlog/dir/def/logs/agent.log
+/home/daiso/agent/possale/backup/etl/eodlog/aff/def/logs/agent.log
+/home/daiso/agent/possale/batch/verifier/logs/agent_tranlog_m1.log
+/home/daiso/agent/possale/batch/verifier/logs/agent.log
+/home/daiso/agent/possale/batch/verifier/logs/agent_tranlog_d3.log
+/home/daiso/agent/possale/batch/verifier/logs/agent_tranlog_d1.log
+/home/daiso/agent/possale/batch/verifier/cron.log
+/home/daiso/agent/possale/batch/backup/verifier/logs/agent_tranlog_m1.log
+/home/daiso/agent/possale/batch/backup/verifier/logs/agent.log
+/home/daiso/agent/possale/batch/backup/verifier/logs/agent_tranlog_d3.log
+/home/daiso/agent/possale/batch/backup/verifier/logs/agent_tranlog_d1.log
+/home/daiso/agent/possale/batch/backup/verifier/cron.log
+/home/daiso/agent/possale/batch/backup/autoslip/logs/agent-receipt.log
+/home/daiso/agent/possale/batch/backup/autoslip/logs/agent.log
+/home/daiso/agent/possale/batch/backup/autoslip/logs/agent_autoslip_m1.log
+/home/daiso/agent/possale/batch/backup/autoslip/logs/agent_autoslip_d3.log
+/home/daiso/agent/possale/batch/backup/autoslip/cron.log
+/home/daiso/agent/possale/batch/autoslip/logs/agent.log
+/home/daiso/agent/possale/batch/autoslip/logs/agent_autoslip_m1.log
+/home/daiso/agent/possale/batch/autoslip/logs/agent_autoslip_d3.log
+/home/daiso/agent/possale/batch/autoslip/cron.log
+/home/daiso/agent/adposv2/event/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/event/grpc/pos/logs/agent.log
+/home/daiso/agent/adposv2/master/api/public/logs/agent.log
+/home/daiso/agent/adposv2/master/api/pos/logs/1.log
+/home/daiso/agent/adposv2/master/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/master/batch/endofsale/logs/agent.log
+/home/daiso/agent/adposv2/version/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/version/schedule/logs/agent.log
+/home/daiso/agent/adposv2/receipt/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/receipt/consumer/possale/paytype/logs/agent.log
+/home/daiso/agent/adposv2/receipt/batch/paytype/logs/agent.log
+/home/daiso/agent/adposv2/receipt/batch/postacc/logs/agent.log
+/home/daiso/agent/adposv2/refundreason/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/refundreason/consumer/possale/logs/agent.log
+/home/daiso/agent/adposv2/partner/api/admin/logs/agent.log
+/home/daiso/agent/adposv2/partner/api/pos/logs/agent.log
+/home/daiso/agent/backup/online/pick/consumer/logs/agent.log
+/home/daiso/agent/backup/online/pick/producers/mobile/logs/agent.log
+/home/daiso/agent/backup/online/pick/producers/admin/logs/agent.log
+/home/daiso/agent/adcollector/arch-possale/shpdayiogt/logs/startup.log
+/home/daiso/agent/adcollector/arch-possale/shpdayiogt/logs/agent.log
+/home/daiso/agent/adcollector/arch-possale/shpdayiogt/logs/startup_iotime.log
+/home/daiso/agent/adcollector/arch-possale/pshpsled/logs/startup.log
+/home/daiso/agent/adcollector/arch-possale/pshpsled/logs/agent.log
+/home/daiso/agent/adcollector/arch-possale/pshpsleh/logs/startup.log
+/home/daiso/agent/adcollector/arch-possale/pshpsleh/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_setlogmid_scomod_aff/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_setlogmid_scomod_aff/cron.log
+/home/daiso/agent/adcollector/backup/adc_setlogmid_posmod_aff/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_setlogmid_posmod_aff/cron.log
+/home/daiso/agent/adcollector/backup/adc_setlogsafe_aff/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_setlogsafe_aff/cron.log
+/home/daiso/agent/adcollector/backup/membership/dmmbr/logs/agent.log
+/home/daiso/agent/adcollector/backup/membership/point-use/logs/agent.log
+/home/daiso/agent/adcollector/backup/membership/dmmbr-all/logs/agent.log
+/home/daiso/agent/adcollector/backup/membership/point-save/logs/agent.log
+/home/daiso/agent/adcollector/backup/membership/card/logs/agent.log
+/home/daiso/agent/adcollector/backup/20211010/adc_setlogmid_scomod_aff/logs/agent.log
+/home/daiso/agent/adcollector/backup/20211010/adc_setlogmid_scomod_aff/cron.log
+/home/daiso/agent/adcollector/backup/20211010/arch-possale/shpdayiogt/logs/startup.log
+/home/daiso/agent/adcollector/backup/20211010/arch-possale/shpdayiogt/logs/agent.log
+/home/daiso/agent/adcollector/backup/20211010/arch-possale/shpdayiogt/logs/startup_iotime.log
+/home/daiso/agent/adcollector/backup/20211010/arch-possale/pshpsled/logs/startup.log
+/home/daiso/agent/adcollector/backup/20211010/arch-possale/pshpsled/logs/agent.log
+/home/daiso/agent/adcollector/backup/20211010/arch-possale/pshpsleh/logs/startup.log
+/home/daiso/agent/adcollector/backup/20211010/arch-possale/pshpsleh/logs/agent.log
+/home/daiso/agent/adcollector/backup/20211010/adc_setlogmid_posmod_aff/logs/agent.log
+/home/daiso/agent/adcollector/backup/20211010/adc_setlogmid_posmod_aff/cron.log
+/home/daiso/agent/adcollector/backup/20211010/adc_setlogsafe_aff/logs/agent.log
+/home/daiso/agent/adcollector/backup/20211010/adc_setlogsafe_aff/cron.log
+/home/daiso/agent/adcollector/backup/20211010/adc_setlogclose_aff/logs/agent.log
+/home/daiso/agent/adcollector/backup/20211010/adc_setlogclose_aff/cron.log
+/home/daiso/agent/adcollector/backup/20211010/adc_setloglogin_aff/logs/agent.log
+/home/daiso/agent/adcollector/backup/20211010/adc_setloglogin_aff/cron.log
+/home/daiso/agent/adcollector/backup/adc_setlogclose_aff/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_setlogclose_aff/cron.log
+/home/daiso/agent/adcollector/backup/van/nice/van001m/logs/agent.log
+/home/daiso/agent/adcollector/backup/van/nice/van002s/logs/agent.log
+/home/daiso/agent/adcollector/backup/van/nice/van001s/logs/agent.log
+/home/daiso/agent/adcollector/backup/van/nice/van001t/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_setloglogin_aff/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_setloglogin_aff/cron.log
+/home/daiso/agent/tools/alert-cpu.log
+/home/daiso/agent/cts/ctsclient/logs/agent.log
+/home/daiso/agent/airflow/logs/DAG_possale-batch-verifier-m1/possale_batch_verifier_m1/2025-10-02T19:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_possale-batch-verifier-m1/possale_batch_verifier_m1/2025-08-01T19:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_possale-batch-verifier-m1/possale_batch_verifier_m1/2025-09-02T19:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_possale-batch-verifier-m1/possale_batch_verifier_m1/2025-09-01T19:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_possale-batch-verifier-m1/possale_batch_verifier_m1/2025-12-01T19:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_possale-batch-verifier-m1/possale_batch_verifier_m1/2025-11-02T19:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_possale-batch-verifier-m1/possale_batch_verifier_m1/2025-07-02T19:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_possale-batch-verifier-m1/possale_batch_verifier_m1/2025-08-02T19:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_possale-batch-verifier-m1/possale_batch_verifier_m1/2025-11-01T19:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_possale-batch-verifier-m1/possale_batch_verifier_m1/2025-10-01T19:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T05:50:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T05:52:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T05:54:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T05:56:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T05:58:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:02:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:04:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:06:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:08:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:10:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:12:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:14:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:16:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:18:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:20:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:22:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:24:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:26:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:28:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:30:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:32:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:34:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:36:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:38:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:40:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:42:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:44:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:46:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:48:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:50:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:52:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:54:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:56:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T06:58:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:02:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:04:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:06:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:08:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:10:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:12:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:14:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:16:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:18:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:20:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:22:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:24:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:26:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:28:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:30:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:32:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:34:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:36:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:38:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:40:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:42:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:44:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:46:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:48:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:50:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:52:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:54:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:56:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T07:58:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:00:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:02:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:04:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:06:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:08:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:10:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:12:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:14:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:16:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:18:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:20:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:22:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:24:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:26:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:28:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:30:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:32:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:34:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:36:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:38:00+00:00/1.log
+/home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-10-01T08:40:00+00:00/1.log
+
+### recent logs
+2025-12-23 12:16:02.1713051400 /home/daiso/agent/adpos/pos/logs/agent.log
+2025-12-23 12:16:01.5242961440 /home/daiso/agent/adpos/poslog/logs/agent.log
+2025-12-23 12:16:01.0232891780 /home/daiso/agent/adc-batch/adpos/eventpushconfig/logs/agent.log
+2025-12-23 12:15:47.1760966470 /home/daiso/agent/adpos/message/consumer/logs/agent.log
+2025-12-23 12:15:40.7860077980 /home/daiso/agent/adpos/batch/publish/logs/agent-receipt.log
+2025-12-23 12:15:40.4160026540 /home/daiso/agent/adpos/admin/logs/agent.log
+2025-12-23 12:15:19.4037085210 /home/daiso/agent/adposv2/version/api/pos/logs/agent.log
+2025-12-23 12:15:19.0587032190 /home/daiso/agent/adposv2/master/api/public/logs/agent.log
+2025-12-23 12:15:13.9826252100 /home/daiso/agent/adposv2/receipt/api/pos/logs/agent.log
+2025-12-23 12:15:13.5246181710 /home/daiso/agent/possale/consumer/setlog/logs/agent.log
+2025-12-23 12:15:08.7375446030 /home/daiso/agent/possale/consumer/receipt/ms/logs/agent.log
+2025-12-23 12:15:06.9135165720 /home/daiso/agent/tools/alert-cpu.log
+2025-12-23 12:15:04.6434816860 /home/daiso/agent/adposv2/partner/api/pos/logs/agent.log
+2025-12-23 12:15:03.7784683930 /home/daiso/agent/possale/consumer/receipt/ora/logs/agent.log
+2025-12-23 12:15:03.2484602470 /home/daiso/agent/airflow/logs/DAG_master-batch-endofsale/endofsale/2025-12-23T03:00:00+00:00/2.log
+2025-12-23 12:15:03.1724590800 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itemsal/2025-12-23T03:10:00+00:00/1.log
+2025-12-23 12:15:03.1404585880 /home/daiso/agent/adposv2/master/batch/endofsale/logs/agent.log
+2025-12-23 12:15:03.0494571890 /home/daiso/agent/adc-batch/adpos/itemsal/logs/agent.log
+2025-12-23 12:15:02.0304415290 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itempropset/2025-12-23T03:10:00+00:00/1.log
+2025-12-23 12:15:01.9234398850 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itempropbase/2025-12-23T03:10:00+00:00/1.log
+2025-12-23 12:15:01.9164397770 /home/daiso/agent/adc-batch/adpos/itempropset/logs/agent.log
+2025-12-23 12:15:01.8034380400 /home/daiso/agent/adc-batch/adpos/itempropbase/logs/agent.log
+2025-12-23 12:15:00.9564250240 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itemprop/2025-12-23T03:10:00+00:00/1.log
+2025-12-23 12:15:00.8304230870 /home/daiso/agent/adc-batch/adpos/itemprop/logs/agent.log
+2025-12-23 12:14:58.1063812240 /home/daiso/agent/adposv2/event/grpc/pos/logs/agent.log
+2025-12-23 12:14:57.6083735710 /home/daiso/agent/adposv2/master/api/pos/logs/agent.log
+2025-12-23 12:14:56.2283523630 /home/daiso/agent/adposv2/partner/api/admin/logs/agent.log
+2025-12-23 12:14:00.8815103020 /home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-12-23T03:12:00+00:00/1.log
+2025-12-23 12:12:00.9566585960 /home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-12-23T03:10:00+00:00/1.log
+2025-12-23 12:10:03.7267889910 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itemsal/2025-12-23T03:05:00+00:00/1.log
+2025-12-23 12:10:02.4717704720 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itempropset/2025-12-23T03:05:00+00:00/1.log
+2025-12-23 12:10:02.3897692620 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itempropbase/2025-12-23T03:05:00+00:00/1.log
+2025-12-23 12:10:01.4427552890 /home/daiso/agent/airflow/logs/DAG_master-batch-endofsale/endofsale/2025-12-23T03:00:00+00:00/1.log
+2025-12-23 12:10:01.2247520720 /home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-12-23T03:08:00+00:00/1.log
+2025-12-23 12:10:01.1527510100 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itemprop/2025-12-23T03:05:00+00:00/1.log
+2025-12-23 12:08:00.8669898670 /home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-12-23T03:06:00+00:00/1.log
+2025-12-23 12:06:01.6212028550 /home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-12-23T03:04:00+00:00/1.log
+2025-12-23 12:05:54.5490988700 /home/daiso/agent/airflow/logs/DAG_receipt-batch-paytype/schedule/2025-12-23T02:05:00+00:00/1.log
+2025-12-23 12:05:54.4350971940 /home/daiso/agent/adposv2/receipt/batch/paytype/logs/agent.log
+2025-12-23 12:05:03.7513601670 /home/daiso/agent/airflow/logs/DAG_master-batch-endofsale/endofsale/2025-12-23T02:50:00+00:00/2.log
+2025-12-23 12:05:03.6133581690 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itemsal/2025-12-23T03:00:00+00:00/1.log
+2025-12-23 12:05:02.3343396570 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itempropbase/2025-12-23T03:00:00+00:00/1.log
+2025-12-23 12:05:02.2073378190 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itempropset/2025-12-23T03:00:00+00:00/1.log
+2025-12-23 12:05:00.9553196980 /home/daiso/agent/airflow/logs/DAG_adpos-version/schedule/2025-12-23T02:05:00+00:00/1.log
+2025-12-23 12:05:00.9403194800 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itemprop/2025-12-23T03:00:00+00:00/1.log
+2025-12-23 12:05:00.8363179750 /home/daiso/agent/adposv2/version/schedule/logs/agent.log
+2025-12-23 12:04:01.3444546340 /home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-12-23T03:02:00+00:00/1.log
+2025-12-23 12:02:01.0947041510 /home/daiso/agent/airflow/logs/DAG_adc-eventpushconfig/eventpushconfig/2025-12-23T03:00:00+00:00/1.log
+2025-12-23 12:00:03.8680755210 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itemsal/2025-12-23T02:55:00+00:00/1.log
+2025-12-23 12:00:02.6070556220 /home/daiso/agent/airflow/logs/DAG_adc-itemprop/itempropset/2025-12-23T02:55:00+00:00/1.log

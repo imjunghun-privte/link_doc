@@ -1,0 +1,200 @@
+COMMAND     PID                         USER   FD   TYPE    DEVICE SIZE/OFF NODE NAME
+systemd       1                         root   40u  IPv4     11179      0t0  TCP *:111 (LISTEN)
+systemd       1                         root   44u  IPv4     11180      0t0  UDP *:111 
+systemd       1                         root   45u  IPv6     11181      0t0  TCP *:111 (LISTEN)
+systemd       1                         root   46u  IPv6     11182      0t0  UDP *:111 
+postmaste   320                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste   320                     postgres   11u  IPv4 395359270      0t0  TCP 172.16.10.127:5432->172.16.50.61:44748 (ESTABLISHED)
+postmaste   366                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste   366                     postgres   11u  IPv4 637273229      0t0  TCP 172.16.10.127:5432->175.209.34.75:53490 (ESTABLISHED)
+postmaste   904                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste   904                     postgres   11u  IPv4 112044871      0t0  TCP 172.16.10.127:5432->172.16.50.61:57628 (ESTABLISHED)
+postmaste   966                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste   966                     postgres   11u  IPv4 339544237      0t0  TCP 172.16.10.127:5432->175.209.34.63:49120 (ESTABLISHED)
+postmaste  1002                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  1002                     postgres   11u  IPv4 231713882      0t0  TCP 172.16.10.127:5432->172.16.50.61:52560 (ESTABLISHED)
+postmaste  1101                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  1101                     postgres   11u  IPv4 339548223      0t0  TCP 172.16.10.127:5432->175.209.34.75:42770 (ESTABLISHED)
+rpcbind    1405                          rpc    4u  IPv4     11179      0t0  TCP *:111 (LISTEN)
+rpcbind    1405                          rpc    5u  IPv4     11180      0t0  UDP *:111 
+rpcbind    1405                          rpc    6u  IPv6     11181      0t0  TCP *:111 (LISTEN)
+rpcbind    1405                          rpc    7u  IPv6     11182      0t0  UDP *:111 
+rpcbind    1405                          rpc   10u  IPv4     18873      0t0  UDP *:729 
+rpcbind    1405                          rpc   11u  IPv6     18874      0t0  UDP *:729 
+Managemen  1409                  acronis_ams   15u  IPv4     17651      0t0  UDP 127.0.0.1:24103 
+Managemen  1409                  acronis_ams   16u  IPv4     24683      0t0  UDP 127.0.0.1:24104 
+Managemen  1409                  acronis_ams   17u  IPv4     24684      0t0  UDP 127.0.0.1:24105 
+Managemen  1409                  acronis_ams  131u  IPv4     47176      0t0  TCP 127.0.0.1:37481->127.0.0.1:30685 (ESTABLISHED)
+Managemen  1409                  acronis_ams  134u  IPv4     47177      0t0  TCP 127.0.0.1:37485->127.0.0.1:30685 (ESTABLISHED)
+Managemen  1409                  acronis_ams  138u  IPv4 640051181      0t0  TCP 127.0.0.1:42146->127.0.0.1:30677 (ESTABLISHED)
+Managemen  1409                  acronis_ams  139u  IPv4     38894      0t0  TCP 127.0.0.1:37489->127.0.0.1:30685 (ESTABLISHED)
+Managemen  1409                  acronis_ams  146u  IPv4     39148      0t0  TCP *:9851 (LISTEN)
+Managemen  1409                  acronis_ams  147u  IPv4 640044955      0t0  TCP 127.0.0.1:42124->127.0.0.1:30677 (ESTABLISHED)
+Managemen  1409                  acronis_ams  250u  IPv4     36113      0t0  TCP 127.0.0.1:9892 (LISTEN)
+Managemen  1409                  acronis_ams  269u  IPv4     48180      0t0  TCP 127.0.0.1:65298->127.0.0.1:30630 (ESTABLISHED)
+Managemen  1409                  acronis_ams  271u  IPv4     24154      0t0  TCP 127.0.0.1:12089->127.0.0.1:7755 (ESTABLISHED)
+Managemen  1409                  acronis_ams  272u  IPv4     55666      0t0  TCP 127.0.0.1:9703->127.0.0.1:7756 (ESTABLISHED)
+Managemen  1409                  acronis_ams  273u  IPv4     24156      0t0  TCP 127.0.0.1:12093->127.0.0.1:7755 (ESTABLISHED)
+Managemen  1409                  acronis_ams  274u  IPv4     55672      0t0  TCP 127.0.0.1:12095->127.0.0.1:7755 (ESTABLISHED)
+Managemen  1409                  acronis_ams  275u  IPv4     55673      0t0  TCP 127.0.0.1:12097->127.0.0.1:7755 (ESTABLISHED)
+Managemen  1409                  acronis_ams  276u  IPv4     55676      0t0  TCP 127.0.0.1:12099->127.0.0.1:7755 (ESTABLISHED)
+Managemen  1409                  acronis_ams  277u  IPv4     54505      0t0  TCP 127.0.0.1:9011->127.0.0.1:30630 (ESTABLISHED)
+Managemen  1409                  acronis_ams  278u  IPv4     32230      0t0  TCP 127.0.0.1:9851->127.0.0.1:51913 (ESTABLISHED)
+Managemen  1409                  acronis_ams  279u  IPv4     34101      0t0  TCP 127.0.0.1:37867->127.0.0.1:30685 (ESTABLISHED)
+Managemen  1409                  acronis_ams  280u  IPv4 640048781      0t0  TCP 127.0.0.1:42126->127.0.0.1:30677 (ESTABLISHED)
+Managemen  1409                  acronis_ams  281u  IPv4     31257      0t0  TCP 127.0.0.1:9851->127.0.0.1:52015 (ESTABLISHED)
+Managemen  1409                  acronis_ams  282u  IPv4     54537      0t0  TCP 127.0.0.1:9892->127.0.0.1:18017 (ESTABLISHED)
+Managemen  1409                  acronis_ams  283u  IPv4     57202      0t0  TCP 127.0.0.1:43596->127.0.0.1:30677 (ESTABLISHED)
+Managemen  1409                  acronis_ams  284u  IPv4  66722203      0t0  TCP 127.0.0.1:46440->127.0.0.1:30685 (ESTABLISHED)
+Managemen  1409                  acronis_ams  285u  IPv4 640045969      0t0  TCP 127.0.0.1:42144->127.0.0.1:30677 (ESTABLISHED)
+arsm       1413                         root   12u  IPv4     30114      0t0  UDP 127.0.0.1:24100 
+arsm       1413                         root   13u  IPv4     37634      0t0  UDP 127.0.0.1:24101 
+arsm       1413                         root   14u  IPv4     37635      0t0  UDP 127.0.0.1:24102 
+arsm       1413                         root   48u  IPv4     23777      0t0  TCP 127.0.0.1:32574 (LISTEN)
+arsm       1413                         root   49u  IPv6     23778      0t0  TCP [::1]:23898 (LISTEN)
+arsm       1413                         root   51u  IPv4     24249      0t0  TCP 127.0.0.1:32574->127.0.0.1:63148 (ESTABLISHED)
+avahi-dae  1416                        avahi   12u  IPv4     18898      0t0  UDP *:5353 
+avahi-dae  1416                        avahi   13u  IPv4     18899      0t0  UDP *:15229 
+acronis_m  1441                  acronis_mon   35u  IPv4     24041      0t0  TCP 127.0.0.1:30444 (LISTEN)
+acronis_m  1441                  acronis_mon   36u  IPv4 640026793      0t0  TCP 127.0.0.1:55462->127.0.0.1:30691 (ESTABLISHED)
+acronis_m  1441                  acronis_mon   37u  IPv4 640029805      0t0  TCP 127.0.0.1:27852->127.0.0.1:30444 (CLOSE_WAIT)
+acronis_m  1441                  acronis_mon   38u  IPv4     27958      0t0  TCP 127.0.0.1:52015->127.0.0.1:9851 (ESTABLISHED)
+acronis_m  1441                  acronis_mon   43u  IPv4     18210      0t0  TCP 127.0.0.1:37959->127.0.0.1:30685 (ESTABLISHED)
+acronis_m  1441                  acronis_mon   44u  IPv4     24321      0t0  TCP 127.0.0.1:18017->127.0.0.1:9892 (ESTABLISHED)
+acronis_m  1441                  acronis_mon   46u  IPv4     17142      0t0  TCP 127.0.0.1:64612->127.0.0.1:30443 (ESTABLISHED)
+acronis_m  1441                  acronis_mon   51u  IPv4   2918046      0t0  TCP 127.0.0.1:64843->127.0.0.1:30685 (ESTABLISHED)
+acronis_m  1441                  acronis_mon   62u  IPv4     47447      0t0  TCP 127.0.0.1:9123->127.0.0.1:30630 (ESTABLISHED)
+elastic-a  1469                         root   10u  IPv4     30252      0t0  TCP 127.0.0.1:6789 (LISTEN)
+elastic-a  1469                         root   11u  IPv4     31084      0t0  TCP 127.0.0.1:6789->127.0.0.1:60322 (ESTABLISHED)
+elastic-a  1469                         root   18u  IPv4     46277      0t0  TCP 127.0.0.1:6789->127.0.0.1:60384 (ESTABLISHED)
+elastic-a  1469                         root   23u  IPv4     36111      0t0  TCP 127.0.0.1:6789->127.0.0.1:60416 (ESTABLISHED)
+elastic-a  1469                         root   25u  IPv4     32097      0t0  TCP 127.0.0.1:6789->127.0.0.1:60534 (ESTABLISHED)
+elastic-a  1469                         root   26u  IPv4     47207      0t0  TCP 127.0.0.1:6789->127.0.0.1:60544 (ESTABLISHED)
+elastic-a  1469                         root   28u  IPv4 519156357      0t0  TCP 172.16.10.127:12711->175.209.34.86:8220 (ESTABLISHED)
+chronyd    1489                       chrony    5u  IPv4     41720      0t0  UDP 127.0.0.1:323 
+chronyd    1489                       chrony    6u  IPv6     41721      0t0  UDP [::1]:323 
+api_gatew  1593                         root    5u  IPv6     23785      0t0  TCP *:9877 (LISTEN)
+api_gatew  1593                         root    7u  IPv6 640045764      0t0  TCP [::1]:9877->[::1]:41522 (ESTABLISHED)
+api_gatew  1593                         root    8u  IPv4     27957      0t0  TCP 127.0.0.1:43560->127.0.0.1:30677 (ESTABLISHED)
+cred-stor  1595                         root   10u  IPv4     43232      0t0  TCP 127.0.0.1:30667 (LISTEN)
+acronis_w  1596                  acronis_wcs   19u  IPv4     23951      0t0  TCP 127.0.0.1:30679 (LISTEN)
+task_mana  1597                         root   10u  IPv4     38824      0t0  TCP 127.0.0.1:30677 (LISTEN)
+task_mana  1597                         root   12u  IPv4     46279      0t0  TCP 127.0.0.1:30677->127.0.0.1:43218 (ESTABLISHED)
+task_mana  1597                         root   13u  IPv4 640048948      0t0  TCP 127.0.0.1:30677->127.0.0.1:42146 (ESTABLISHED)
+task_mana  1597                         root   14u  IPv4     52819      0t0  TCP 127.0.0.1:30677->127.0.0.1:43560 (ESTABLISHED)
+task_mana  1597                         root   17u  IPv4     43773      0t0  TCP 127.0.0.1:30677->127.0.0.1:43596 (ESTABLISHED)
+task_mana  1597                         root   18u  IPv4 640051164      0t0  TCP 127.0.0.1:30677->127.0.0.1:42144 (ESTABLISHED)
+task_mana  1597                         root   23u  IPv4 640045827      0t0  TCP 127.0.0.1:30677->127.0.0.1:42126 (ESTABLISHED)
+task_mana  1597                         root   24u  IPv4 640060533      0t0  TCP 127.0.0.1:30677->127.0.0.1:42124 (ESTABLISHED)
+backup_ma  1598                         root    8u  IPv6     45331      0t0  TCP *:30685 (LISTEN)
+backup_ma  1598                         root    9u  IPv6     14689      0t0  TCP 127.0.0.1:30685->127.0.0.1:37481 (ESTABLISHED)
+backup_ma  1598                         root   10u  IPv6     31071      0t0  TCP 127.0.0.1:30685->127.0.0.1:37485 (ESTABLISHED)
+backup_ma  1598                         root   11u  IPv6     31073      0t0  TCP 127.0.0.1:30685->127.0.0.1:37489 (ESTABLISHED)
+backup_ma  1598                         root   12u  IPv4     35299      0t0  TCP 127.0.0.1:43218->127.0.0.1:30677 (ESTABLISHED)
+backup_ma  1598                         root   13u  IPv6     27917      0t0  TCP 127.0.0.1:30685->127.0.0.1:37863 (ESTABLISHED)
+backup_ma  1598                         root   14u  IPv6     50668      0t0  TCP 127.0.0.1:30685->127.0.0.1:37865 (ESTABLISHED)
+backup_ma  1598                         root   15u  IPv6     50670      0t0  TCP 127.0.0.1:30685->127.0.0.1:37867 (ESTABLISHED)
+backup_ma  1598                         root   16u  IPv6     31259      0t0  TCP 127.0.0.1:30685->127.0.0.1:37959 (ESTABLISHED)
+backup_ma  1598                         root   17u  IPv6   2929382      0t0  TCP 127.0.0.1:30685->127.0.0.1:64843 (ESTABLISHED)
+backup_ma  1598                         root   18u  IPv6  66514860      0t0  TCP 127.0.0.1:30685->127.0.0.1:46440 (ESTABLISHED)
+active_pr  1599                         root    8u  IPv4     31059      0t0  TCP 127.0.0.1:31009 (LISTEN)
+vault_man  1600                         root    8u  IPv4     34023      0t0  TCP 127.0.0.1:30691 (LISTEN)
+vault_man  1600                         root    9u  IPv4 640042036      0t0  TCP 127.0.0.1:30691->127.0.0.1:55462 (ESTABLISHED)
+catalog_m  1601                         root    7u  IPv4     47138      0t0  TCP 127.0.0.1:30692 (LISTEN)
+account_s  1602                         root   10u  IPv4     47171      0t0  TCP 127.0.0.1:30678 (LISTEN)
+scheduler  1604                         root    5u  IPv4     27821      0t0  TCP 127.0.0.1:30681 (LISTEN)
+acronis_l  1607                   acronis_ls   20u  IPv4     35223      0t0  TCP 127.0.0.1:30443 (LISTEN)
+acronis_l  1607                   acronis_ls   24u  IPv4     52822      0t0  TCP 127.0.0.1:30443->127.0.0.1:64612 (ESTABLISHED)
+acronis_l  1607                   acronis_ls   26u  IPv4 638445335      0t0  TCP 172.16.10.127:18247->91.198.51.131:443 (CLOSE_WAIT)
+acronis_n  1610 acronis_notification_service   19u  IPv4     44452      0t0  TCP 127.0.0.1:30572 (LISTEN)
+acronis_n  1610 acronis_notification_service   20u  IPv6     44453      0t0  TCP [::1]:30572 (LISTEN)
+acronis_n  1610 acronis_notification_service   29u  IPv4     24224      0t0  TCP 127.0.0.1:51913->127.0.0.1:9851 (ESTABLISHED)
+update_se  1612                         root    5u  IPv4     16653      0t0  TCP 127.0.0.1:13298 (LISTEN)
+alert-man  1615                         root    8u  IPv4     37658      0t0  TCP 127.0.0.1:30630 (LISTEN)
+alert-man  1615                         root    9u  IPv4     53971      0t0  TCP 127.0.0.1:30630->127.0.0.1:65298 (ESTABLISHED)
+alert-man  1615                         root   10u  IPv4     56583      0t0  TCP 127.0.0.1:30630->127.0.0.1:9011 (ESTABLISHED)
+alert-man  1615                         root   11u  IPv4     34162      0t0  TCP 127.0.0.1:30630->127.0.0.1:9123 (ESTABLISHED)
+archive_s  1616                         root   13u  IPv6     46172      0t0  TCP *:2700 (LISTEN)
+archive_s  1616                         root   14u  IPv6     29175      0t0  TCP *:2600 (LISTEN)
+archive_s  1616                         root   15u  IPv6     46172      0t0  TCP *:2700 (LISTEN)
+archive_s  1616                         root   16u  IPv6     29175      0t0  TCP *:2600 (LISTEN)
+postmaste  1897                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  1897                     postgres   11u  IPv4 638618675      0t0  TCP 172.16.10.127:5432->172.16.10.181:47834 (ESTABLISHED)
+postmaste  1899                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  1899                     postgres   11u  IPv4 638613644      0t0  TCP 172.16.10.127:5432->172.16.10.181:47840 (ESTABLISHED)
+sshd       1914                         root    3u  IPv4 639374090      0t0  TCP 172.16.10.127:22->172.16.102.13:61059 (ESTABLISHED)
+sshd       1916                        daiso    3u  IPv4 639374090      0t0  TCP 172.16.10.127:22->172.16.102.13:61059 (ESTABLISHED)
+sshd       1916                        daiso    9u  IPv6 639379947      0t0  TCP [::1]:6010 (LISTEN)
+sshd       1916                        daiso   10u  IPv4 639379948      0t0  TCP 127.0.0.1:6010 (LISTEN)
+postmaste  1919                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  1919                     postgres   11u  IPv4 638599134      0t0  TCP 172.16.10.127:5432->172.16.10.183:49818 (ESTABLISHED)
+postmaste  1920                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  1920                     postgres   11u  IPv4 638621783      0t0  TCP 172.16.10.127:5432->172.16.10.183:49820 (ESTABLISHED)
+postmaste  2513                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  2513                     postgres   11u  IPv4 638613504      0t0  TCP 172.16.10.127:5432->172.16.10.184:49122 (ESTABLISHED)
+postmaste  2514                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  2514                     postgres   11u  IPv4 638611185      0t0  TCP 172.16.10.127:5432->172.16.10.184:49124 (ESTABLISHED)
+postmaste  2525                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  2525                     postgres   11u  IPv4 638615285      0t0  TCP 172.16.10.127:5432->172.16.10.182:37392 (ESTABLISHED)
+postmaste  2527                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  2527                     postgres   11u  IPv4 638612403      0t0  TCP 172.16.10.127:5432->172.16.10.182:37394 (ESTABLISHED)
+postmaste  2642                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  2642                     postgres   11u  IPv4 633378809      0t0  TCP 172.16.10.127:5432->175.209.34.75:59844 (ESTABLISHED)
+filebeat   2680                         root   11u  IPv4 640067705      0t0  TCP 172.16.10.127:23133->175.209.34.86:9200 (ESTABLISHED)
+filebeat   2680                         root   19u  IPv4     34029      0t0  TCP 127.0.0.1:60384->127.0.0.1:6789 (ESTABLISHED)
+postmaste  2739                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  2739                     postgres   11u  IPv4 633368326      0t0  TCP 127.0.0.1:5432->127.0.0.1:24970 (ESTABLISHED)
+postmaste  2991                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  2991                     postgres   11u  IPv4 633394335      0t0  TCP 172.16.10.127:5432->172.16.10.126:22574 (ESTABLISHED)
+metricbea  3039                         root    7u  IPv4 519128969      0t0  TCP 172.16.10.127:50015->175.209.34.86:9200 (ESTABLISHED)
+metricbea  3039                         root   17u  IPv4     16827      0t0  TCP 127.0.0.1:60416->127.0.0.1:6789 (ESTABLISHED)
+apm-serve  3243                         root    9u  IPv4     37755      0t0  TCP 127.0.0.1:60322->127.0.0.1:6789 (ESTABLISHED)
+apm-serve  3243                         root   10u  IPv4 639946394      0t0  TCP 127.0.0.1:8200->127.0.0.1:34488 (ESTABLISHED)
+apm-serve  3243                         root   11u  IPv4     43262      0t0  TCP 127.0.0.1:8200 (LISTEN)
+apm-serve  3243                         root   12u  IPv4 580126114      0t0  TCP 127.0.0.1:8200->127.0.0.1:10605 (ESTABLISHED)
+apm-serve  3243                         root   13u  IPv4 606822159      0t0  TCP 127.0.0.1:8200->127.0.0.1:57880 (ESTABLISHED)
+apm-serve  3243                         root   14u  IPv4 638234372      0t0  TCP 127.0.0.1:8200->127.0.0.1:10716 (ESTABLISHED)
+apm-serve  3243                         root   15u  IPv4 611407441      0t0  TCP 127.0.0.1:8200->127.0.0.1:46859 (ESTABLISHED)
+apm-serve  3243                         root   16u  IPv4 639822194      0t0  TCP 127.0.0.1:8200->127.0.0.1:33574 (ESTABLISHED)
+apm-serve  3243                         root   17u  IPv4 597835492      0t0  TCP 127.0.0.1:8200->127.0.0.1:43059 (ESTABLISHED)
+apm-serve  3243                         root   18u  IPv4 633814064      0t0  TCP 127.0.0.1:8200->127.0.0.1:26453 (ESTABLISHED)
+apm-serve  3243                         root   19u  IPv4 625445015      0t0  TCP 172.16.10.127:58078->175.209.34.86:9200 (ESTABLISHED)
+apm-serve  3243                         root   20u  IPv4 608023484      0t0  TCP 172.16.10.127:58873->175.209.34.86:9200 (ESTABLISHED)
+apm-serve  3243                         root   21u  IPv4 620445664      0t0  TCP 127.0.0.1:8200->127.0.0.1:21459 (ESTABLISHED)
+apm-serve  3243                         root   22u  IPv4 580081815      0t0  TCP 127.0.0.1:8200->127.0.0.1:10277 (ESTABLISHED)
+apm-serve  3243                         root   25u  IPv4 555926187      0t0  TCP 127.0.0.1:8200->127.0.0.1:18387 (ESTABLISHED)
+apm-serve  3243                         root   26u  IPv4 640014074      0t0  TCP 127.0.0.1:8200->127.0.0.1:34924 (ESTABLISHED)
+apm-serve  3243                         root   28u  IPv4 615503678      0t0  TCP 127.0.0.1:8200->127.0.0.1:22560 (ESTABLISHED)
+apm-serve  3243                         root   29u  IPv4 625589603      0t0  TCP 127.0.0.1:8200->127.0.0.1:14902 (ESTABLISHED)
+apm-serve  3243                         root   32u  IPv4 635197096      0t0  TCP 127.0.0.1:8200->127.0.0.1:46581 (ESTABLISHED)
+apm-serve  3243                         root   33u  IPv4 515894433      0t0  TCP 127.0.0.1:8200->127.0.0.1:33956 (ESTABLISHED)
+apm-serve  3243                         root   34u  IPv4 639389419      0t0  TCP 127.0.0.1:8200->127.0.0.1:30776 (ESTABLISHED)
+apm-serve  3243                         root   35u  IPv4 582543335      0t0  TCP 127.0.0.1:8200->127.0.0.1:33219 (ESTABLISHED)
+postmaste  3297                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  3297                     postgres   11u  IPv4 627768063      0t0  TCP 172.16.10.127:5432->172.16.10.126:18937 (ESTABLISHED)
+postmaste  3780                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  3780                     postgres   11u  IPv4 633428449      0t0  TCP 172.16.10.127:5432->175.209.34.63:30280 (ESTABLISHED)
+filebeat   3814                         root    9u  IPv4 519160223      0t0  TCP 172.16.10.127:49931->175.209.34.86:9200 (ESTABLISHED)
+filebeat   3814                         root   17u  IPv4     31098      0t0  TCP 127.0.0.1:60544->127.0.0.1:6789 (ESTABLISHED)
+metricbea  4320                         root    7u  IPv4 519149480      0t0  TCP 172.16.10.127:49965->175.209.34.86:9200 (ESTABLISHED)
+metricbea  4320                         root   15u  IPv4     31097      0t0  TCP 127.0.0.1:60534->127.0.0.1:6789 (ESTABLISHED)
+postmaste  4763                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  4763                     postgres   11u  IPv4 216369476      0t0  TCP 127.0.0.1:5432->127.0.0.1:58904 (ESTABLISHED)
+postmaste  4930                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  4930                     postgres   11u  IPv4 339679371      0t0  TCP 172.16.10.127:5432->175.209.34.75:42070 (ESTABLISHED)
+postmaste  5405                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  5405                     postgres   11u  IPv4 163182599      0t0  TCP 127.0.0.1:5432->127.0.0.1:46390 (ESTABLISHED)
+postmaste  6430                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  6430                     postgres   11u  IPv4 620693938      0t0  TCP 172.16.10.127:5432->175.209.34.63:64214 (ESTABLISHED)
+postmaste  6859                     postgres   10u  IPv6     47241      0t0  UDP [::1]:9211->[::1]:9211 
+postmaste  6859                     postgres   11u  IPv4  69679449      0t0  TCP 172.16.10.127:5432->172.16.10.126:46368 (ESTABLISHED)
+mms        7227                         root   18u  IPv4     24133      0t0  UDP 127.0.0.1:24106 
+mms        7227                         root   19u  IPv4     21812      0t0  UDP 127.0.0.1:24107 
+mms        7227                         root   20u  IPv4     21813      0t0  UDP 127.0.0.1:24108 
+mms        7227                         root   24u  IPv6 640059622      0t0  TCP [::1]:41522->[::1]:9877 (ESTABLISHED)
+mms        7227                         root   93u  IPv4     43387      0t0  TCP 127.0.0.1:63148->127.0.0.1:32574 (ESTABLISHED)
+mms        7227                         root  104u  IPv4     17080      0t0  TCP *:9850 (LISTEN)
+mms        7227                         root  117u  IPv4     37858      0t0  TCP 127.0.0.1:38151->127.0.0.1:7780 (ESTABLISHED)
+mms        7227                         root  147u  IPv4     61465      0t0  TCP 127.0.0.1:43234 (LISTEN)
+cupsd      7265                         root   11u  IPv6     26519      0t0  TCP [::1]:631 (LISTEN)
+cupsd      7265                         root   12u  IPv4     26520      0t0  TCP 127.0.0.1:631 (LISTEN)

@@ -1,0 +1,185 @@
+### agent logs
+/home/daiso/agent/adcollector/backup_20211010/adc_items/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_items/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_possco/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_possco/logs/adc.log
+/home/daiso/agent/adcollector/backup_20211010/adc_possco/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_possco_210930/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_possco_210930/logs/adc.log
+/home/daiso/agent/adcollector/backup_20211010/adc_possco_210930/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc-items/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc-items/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc-items-nts/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc-items-nts/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itemcat/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itemcat/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itemcat/logs/adc.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itemend/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itemend/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itemexpiry/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itemexpiry/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itemprop/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itemprop/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itempropbase/logs/adc.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itempropbase/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itempropbase/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itempropset/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itempropset/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itemsal/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_itemsal/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_loginout/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_loginout/logs/adc.log
+/home/daiso/agent/adcollector/backup_20211010/adc_loginout/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_nts_mkt001t/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_nts_mkt001t/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_pos002m/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_pos002m/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_pos002t/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_pos002t/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_poshrsm/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_poshrsm/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_posnts/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_posnts/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setlogclose/logs/adc.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setlogclose/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setlogclose/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setloglogin/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setloglogin/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setloglogin/logs/adc.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setlogmid_posmod/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setlogmid_posmod/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setlogmid_posmod/logs/adc.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setlogmid_scomod/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setlogmid_scomod/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setlogmid_scomod/logs/adc.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setlogsafe/cron.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setlogsafe/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_setlogsafe/logs/adc.log
+/home/daiso/agent/adcollector/backup_20211010/adc_shpmstm/logs/agent.log
+/home/daiso/agent/adcollector/backup_20211010/adc_shpmstm/cron.log
+/home/daiso/agent/adcollector/backup_20221229/adc-items-nts/logs/agent.log
+/home/daiso/agent/adcollector/backup_20221229/adc-items-nts/cron.log
+/home/daiso/agent/adcollector/backup_20221229/adc_basketagg/logs/agent.log
+/home/daiso/agent/adcollector/backup_20221229/adc_basketaggnts/logs/agent.log
+/home/daiso/agent/adcollector/backup_20221229/adc_basketaggnts/cron.log
+/home/daiso/agent/adcollector/backup_20221229/adc_loginoutnts/logs/agent.log
+/home/daiso/agent/adcollector/backup_20221229/adc_loginoutnts/cron.log
+/home/daiso/agent/adcollector/backup_20221229/adc_posnts/logs/agent.log
+/home/daiso/agent/adcollector/backup_20221229/adc_posnts/cron.log
+/home/daiso/agent/adcollector/backup_20221229/adc_itemprop/logs/agent.log
+/home/daiso/agent/adcollector/backup_20221229/adc_itemprop/cron.log
+/home/daiso/agent/adcollector/backup_20221229/adc_itempropbase/logs/agent.log
+/home/daiso/agent/adcollector/backup_20221229/adc_itempropbase/cron.log
+/home/daiso/agent/adcollector/backup_20221229/adc_itempropset/logs/agent.log
+/home/daiso/agent/adcollector/backup_20221229/adc_itempropset/cron.log
+/home/daiso/agent/adcollector/backup_20221229/adc_itemsal/logs/agent.log
+/home/daiso/agent/adcollector/backup_20221229/adc_itemsal/cron.log
+/home/daiso/agent/adcollector/backup/adc-items/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc-items/cron.log
+/home/daiso/agent/adcollector/backup/adc_itemcat/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_itemcat/cron.log
+/home/daiso/agent/adcollector/backup/adc_itemend/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_itemend/cron.log
+/home/daiso/agent/adcollector/backup/adc_itemexpiry/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_itemexpiry/cron.log
+/home/daiso/agent/adcollector/backup/adc_loginout/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_loginout/logs/adc.log
+/home/daiso/agent/adcollector/backup/adc_loginout/cron.log
+/home/daiso/agent/adcollector/backup/adc_setlogclose/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_setlogclose/cron.log
+/home/daiso/agent/adcollector/backup/adc_setloglogin/logs/adc.log
+/home/daiso/agent/adcollector/backup/adc_setloglogin/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_setloglogin/cron.log
+/home/daiso/agent/adcollector/backup/adc_setlogmid_posmod/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_setlogmid_posmod/cron.log
+/home/daiso/agent/adcollector/backup/adc_setlogmid_scomod/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_setlogmid_scomod/cron.log
+/home/daiso/agent/adcollector/backup/adc_setlogsafe/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_setlogsafe/cron.log
+/home/daiso/agent/adcollector/backup/adc_shpmstm/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_shpmstm/cron.log
+/home/daiso/agent/adcollector/backup/adc_poshrsm/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_poshrsm/cron.log
+/home/daiso/agent/adcollector/backup/adc_possco/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_possco/logs/adc.log
+/home/daiso/agent/adcollector/backup/adc_possco/cron.log
+/home/daiso/agent/adcollector/backup/adc_possco-possale/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_possco-possale/logs/adc.log
+/home/daiso/agent/adcollector/backup/adc_possco-possale/cron.log
+/home/daiso/agent/adcollector/backup/adc_possco-sts/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_possco-sts/logs/adc.log
+/home/daiso/agent/adcollector/backup/adc_possco-sts/cron.log
+/home/daiso/agent/adcollector/backup/adc_eventpush/logs/agent.log
+/home/daiso/agent/adcollector/backup/adc_eventpush/cron.log
+/home/daiso/agent/tools/alert-cpu.log
+/home/daiso/agent/backup/possale/etl/receipt/logs/backup/agent-2020-08-04T05-24-10.263.log
+/home/daiso/agent/backup/possale/etl/receipt/logs/backup/agent-2020-08-05T12-04-17.811.log
+/home/daiso/agent/backup/possale/etl/receipt/logs/agent.log
+/home/daiso/agent/backup/possale/etl/receipt/cron.log
+/home/daiso/agent/backup/adpos/backup/adserverhttp/logs/agent.log
+/home/daiso/agent/cts/ctsclient/logs/agent.log
+/home/daiso/agent/adpos/admin/logs/agent.log
+/home/daiso/agent/adpos/pos/logs/tmp/1.log
+/home/daiso/agent/adpos/pos/logs/agent.log
+/home/daiso/agent/adpos/poslog/logs/agent.log
+/home/daiso/agent/adposv2/version/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/refundreason/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/receipt/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/event/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/event/grpc/pos/logs/agent.log
+/home/daiso/agent/adposv2/partner/api/admin/logs/agent.log
+/home/daiso/agent/adposv2/partner/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/master/api/pos/logs/agent.log
+/home/daiso/agent/adposv2/master/api/public/logs/agent.log
+
+### recent logs
+2025-12-23 12:14:05.5658414620 /home/daiso/agent/adpos/pos/logs/agent.log
+2025-12-23 12:14:03.1927933100 /home/daiso/agent/adpos/admin/logs/agent.log
+2025-12-23 12:14:00.4277372040 /home/daiso/agent/adposv2/version/api/pos/logs/agent.log
+2025-12-23 12:13:54.3016128980 /home/daiso/agent/adposv2/receipt/api/pos/logs/agent.log
+2025-12-23 12:13:51.8065622700 /home/daiso/agent/adposv2/event/grpc/pos/logs/agent.log
+2025-12-23 12:13:50.5155360740 /home/daiso/agent/adposv2/partner/api/admin/logs/agent.log
+2025-12-23 12:13:49.8585227420 /home/daiso/agent/adposv2/partner/api/pos/logs/agent.log
+2025-12-23 12:13:43.2923895080 /home/daiso/agent/adposv2/master/api/pos/logs/agent.log
+2025-12-23 12:13:42.8613807620 /home/daiso/agent/adposv2/master/api/public/logs/agent.log
+2025-12-23 12:13:39.5783141450 /home/daiso/agent/adpos/poslog/logs/agent.log
+2025-12-23 12:10:06.6230960470 /home/daiso/agent/tools/alert-cpu.log
+2025-12-23 11:41:57.0861867800 /home/daiso/agent/adposv2/refundreason/api/pos/logs/agent.log
+2025-09-08 12:20:50.3685128490 /home/daiso/agent/adposv2/event/api/pos/logs/agent.log
+2025-02-28 11:29:18.2810586910 /home/daiso/agent/cts/ctsclient/logs/agent.log
+2024-08-20 11:04:29.7080100010 /home/daiso/agent/adpos/pos/logs/tmp/1.log
+2022-12-29 10:46:01.7323992800 /home/daiso/agent/adcollector/backup/adc_eventpush/logs/agent.log
+2022-12-29 10:46:01.7053990410 /home/daiso/agent/adcollector/backup/adc_eventpush/cron.log
+2022-12-29 10:40:01.6785364030 /home/daiso/agent/adcollector/backup/adc_possco-sts/logs/agent.log
+2022-12-29 10:40:01.6775363950 /home/daiso/agent/adcollector/backup/adc_possco/logs/agent.log
+2022-12-29 10:40:01.4465346250 /home/daiso/agent/adcollector/backup/adc_possco/cron.log
+2022-12-29 10:40:01.4445346100 /home/daiso/agent/adcollector/backup/adc_possco-sts/cron.log
+2022-12-29 10:00:21.1403654760 /home/daiso/agent/adcollector/backup/adc_setloglogin/logs/agent.log
+2022-12-29 10:00:06.9822467650 /home/daiso/agent/adcollector/backup/adc_setlogsafe/logs/agent.log
+2022-12-29 10:00:01.5491992000 /home/daiso/agent/adcollector/backup/adc_setlogsafe/cron.log
+2022-12-29 10:00:01.5491992000 /home/daiso/agent/adcollector/backup/adc_setloglogin/cron.log
+2022-12-29 06:35:16.8641177240 /home/daiso/agent/adcollector/backup/adc_poshrsm/logs/agent.log
+2022-12-29 06:35:01.7470003710 /home/daiso/agent/adcollector/backup/adc_poshrsm/cron.log
+2022-12-29 06:00:33.0611923010 /home/daiso/agent/adcollector/backup/adc_loginout/logs/agent.log
+2022-12-29 06:00:33.0611923010 /home/daiso/agent/adcollector/backup/adc_loginout/logs/adc.log
+2022-12-29 06:00:01.5379420390 /home/daiso/agent/adcollector/backup/adc_loginout/cron.log
+2022-12-28 23:47:35.8575558240 /home/daiso/agent/adcollector/backup/adc_setlogmid_posmod/logs/agent.log
+2022-12-28 23:47:34.3205442680 /home/daiso/agent/adcollector/backup/adc_setlogclose/logs/agent.log
+2022-12-28 23:45:54.1687747700 /home/daiso/agent/adcollector/backup/adc_setlogmid_scomod/logs/agent.log
+2022-12-28 23:45:01.2383774470 /home/daiso/agent/adcollector/backup/adc_setlogmid_posmod/cron.log
+2022-12-28 23:45:01.2373774390 /home/daiso/agent/adcollector/backup/adc_setlogclose/cron.log
+2022-12-28 23:45:01.2343774170 /home/daiso/agent/adcollector/backup/adc_setlogmid_scomod/cron.log
+2022-12-28 13:49:33.0147030020 /home/daiso/agent/adcollector/backup/adc_itemend/logs/agent.log
+2022-12-28 13:45:01.5294955470 /home/daiso/agent/adcollector/backup/adc_itemend/cron.log
+2022-12-28 06:01:34.6768398270 /home/daiso/agent/adcollector/backup/adc-items/logs/agent.log
+2022-12-28 06:01:01.6525953160 /home/daiso/agent/adcollector/backup/adc_itemcat/logs/agent.log
+2022-12-28 06:00:01.5451502270 /home/daiso/agent/adcollector/backup/adc-items/cron.log
+2022-12-28 06:00:01.5381501750 /home/daiso/agent/adcollector/backup/adc_itemcat/cron.log
+2022-12-28 05:00:03.6315781870 /home/daiso/agent/adcollector/backup/adc_itemexpiry/logs/agent.log
+2022-12-28 05:00:01.1785597620 /home/daiso/agent/adcollector/backup/adc_itemexpiry/cron.log
+2022-10-24 16:48:00.2141284660 /home/daiso/agent/adcollector/backup/adc_possco-possale/logs/agent.log
+2022-10-24 16:43:24.6040253890 /home/daiso/agent/adcollector/backup/adc_possco-possale/cron.log
+2022-10-24 16:43:24.5980253430 /home/daiso/agent/adcollector/backup/adc_possco-possale/logs/adc.log
+2022-09-26 06:35:35.7707714390 /home/daiso/agent/adcollector/backup/adc_shpmstm/logs/agent.log
+2022-09-26 06:35:01.3445116910 /home/daiso/agent/adcollector/backup/adc_shpmstm/cron.log
+2022-08-06 16:04:01.5938949400 /home/daiso/agent/adcollector/backup_20221229/adc_itemsal/logs/agent.log

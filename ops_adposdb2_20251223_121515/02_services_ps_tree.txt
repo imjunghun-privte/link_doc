@@ -1,0 +1,50 @@
+### adpos ps tree
+  465     1 daiso    Mon Sep  8 12:20:57 2025 /home/daiso/agent/adposv2/event/grpc/pos/event --config=/home/daiso/agent/adposv2/event/grpc/pos/configs/server.yml --addr=:59004 --K=/home/daiso/agent/adposv2/event/grpc/pos/certs/server.key --P=/home/daiso/agent/adposv2/event/grpc/pos/certs/server.crt
+  557     1 daiso    Thu Oct 16 17:51:02 2025 /home/daiso/agent/possale/consumer/receipt/ora/receipt --conf=configs/server.properties
+  559     1 daiso    Mon Sep  8 12:20:57 2025 /home/daiso/agent/adposv2/event/api/pos/event --config=/home/daiso/agent/adposv2/event/api/pos/configs/server.yml --addr=:49004
+ 1208     1 daiso    Thu Oct 16 17:51:07 2025 /home/daiso/agent/possale/consumer/receipt/ms/receipt --conf=configs/server.properties
+ 1302     1 avahi    Sun Aug 24 06:13:28 2025 avahi-daemon: running [adposdb2.local]
+ 3948  8036 postgres Mon Dec 22 13:34:04 2025 postgres: daiso adpos 172.16.50.61(42204) idle
+ 4653     1 daiso    Thu Oct  2 12:04:27 2025 /home/daiso/agent/adposv2/receipt/api/pos/receipt --config=/home/daiso/agent/adposv2/receipt/api/pos/configs/server.yml --addr=:49003
+ 6801 15086 daiso    Sun Aug 24 11:04:11 2025 gunicorn: master [gunicorn]
+ 6805 15086 daiso    Sun Aug 24 11:04:11 2025 [celeryd: celery@adposdb2:ForkPoolWorker-1]
+ 6806 15086 daiso    Sun Aug 24 11:04:11 2025 [celeryd: celery@adposdb2:ForkPoolWorker-2]
+ 6807 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-3]
+ 6808 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-4]
+ 6809 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-5]
+ 6810 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-6]
+ 6812 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-7]
+ 6813 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-8]
+ 6814 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-9]
+ 6815 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-10]
+ 6816 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-11]
+ 6817 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-12]
+ 6818 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-13]
+ 6819 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-14]
+ 6820 15086 daiso    Sun Aug 24 11:04:12 2025 [celeryd: celery@adposdb2:ForkPoolWorker-15]
+ 6821 15086 daiso    Sun Aug 24 11:04:13 2025 [celeryd: celery@adposdb2:ForkPoolWorker-16]
+ 8036     1 postgres Sun Aug 24 06:13:33 2025 /usr/pgsql-12/bin/postmaster -D /data/postgresql/12/data/
+ 8961     1 root     Sun Aug 24 06:13:33 2025 /usr/libexec/postfix/master -w
+ 8988  8036 postgres Tue Dec 23 09:26:33 2025 postgres: daiso adpos 172.16.102.13(64401) idle
+10086  8036 postgres Thu Sep 25 10:47:09 2025 postgres: daiso adpos 172.16.50.61(45960) idle
+10327 10217 daiso    Tue Dec 23 12:15:22 2025 tee /var/tmp/ops_adposdb2_20251223_121515/02_services_ps_tree.txt
+10329 10326 daiso    Tue Dec 23 12:15:22 2025 grep -E adpos|adposv2|poslog|refundreason|receipt|master|producer|pusher(_ws)?
+11543  8036 postgres Thu Nov 27 03:25:19 2025 postgres: daiso adpos 172.16.50.61(35284) idle
+11558  8036 postgres Thu Nov 27 03:25:22 2025 postgres: daiso adpos 172.16.50.61(35286) idle
+15086     1 daiso    Sun Aug 24 07:01:51 2025 [celeryd: celery@adposdb2:MainProcess] -active- (celery worker -q vanq1)
+16745  8036 postgres Thu Dec  4 14:48:40 2025 postgres: daiso adpos 172.16.50.61(51304) idle
+17019  8036 postgres Tue Dec  9 16:17:28 2025 postgres: daiso adpos 172.16.50.61(33098) idle
+19272  8036 postgres Mon Dec 22 11:59:17 2025 postgres: daiso adpos 172.16.50.61(42018) idle
+19613     1 daiso    Mon Sep  8 10:09:19 2025 /home/daiso/agent/adposv2/version/api/pos/pos --config=/home/daiso/agent/adposv2/version/api/pos/configs/server.yml --addr=:49001
+23430     1 daiso    Wed Oct  1 16:34:48 2025 /home/daiso/agent/adposv2/refundreason/consumer/possale/refundreason --config=/home/daiso/agent/adposv2/refundreason/consumer/possale/configs/server.yml
+24054     1 daiso    Wed Oct  1 16:35:10 2025 /home/daiso/agent/adposv2/refundreason/api/pos/refundreason --config=/home/daiso/agent/adposv2/refundreason/api/pos/configs/server.yml --addr=:49002
+27529  8036 postgres Mon Dec 22 12:15:54 2025 postgres: daiso adpos 172.16.50.61(42054) idle
+28091     1 daiso    Thu Oct 16 17:42:40 2025 /home/daiso/agent/adpos/admin/admin --addr=:45500
+28654     1 daiso    Thu Oct 16 17:42:46 2025 /home/daiso/agent/adpos/message/consumer/consumer
+29385     1 daiso    Thu Oct 16 17:43:40 2025 /home/daiso/agent/adpos/batch/publish/publish --conf=configs/receipt.properties --logger=configs/receipt_logger.properties --batch_type=receipt
+29940     1 daiso    Mon Sep  8 12:06:25 2025 /home/daiso/agent/adposv2/partner/api/pos/partner --config=/home/daiso/agent/adposv2/partner/api/pos/configs/server.yml --addr=:49005
+30092     1 daiso    Mon Sep  8 12:06:25 2025 /home/daiso/agent/adposv2/partner/api/admin/partner --config=/home/daiso/agent/adposv2/partner/api/admin/configs/server.yml --addr=:48005
+30573     1 daiso    Thu Oct 16 17:44:01 2025 /home/daiso/agent/adpos/poslog/poslog --addr=:45503
+31390     1 daiso    Mon Sep  8 12:17:18 2025 /home/daiso/agent/adposv2/master/api/public/master --config=/home/daiso/agent/adposv2/master/api/public/configs/server.yml --addr=:51006
+31842     1 daiso    Mon Sep  8 12:17:57 2025 /home/daiso/agent/adposv2/master/api/pos/master --config=/home/daiso/agent/adposv2/master/api/pos/configs/server.yml --addr=:49006
+32080     1 daiso    Thu Oct 16 17:48:48 2025 /home/daiso/agent/adpos/pos/pos --addr=:45502

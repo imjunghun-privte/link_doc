@@ -1,0 +1,44 @@
+### hostname / os / kernel
+   Static hostname: adposap01
+         Icon name: computer-server
+           Chassis: server
+        Machine ID: 63ad23eb3a414314a59b058cdd0a035c
+           Boot ID: a79846bf771a4091b7d1997cf66155d0
+  Operating System: Ubuntu 18.04.6 LTS
+            Kernel: Linux 4.15.0-162-generic
+      Architecture: x86-64
+
+NAME="Ubuntu"
+VERSION="18.04.6 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.6 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+Linux adposap01 4.15.0-162-generic #170-Ubuntu SMP Mon Oct 18 11:38:05 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+### time
+                      Local time: Tue 2025-12-23 12:08:38 KST
+                  Universal time: Tue 2025-12-23 03:08:38 UTC
+                        RTC time: Tue 2025-12-23 03:09:55
+                       Time zone: Asia/Seoul (KST, +0900)
+       System clock synchronized: no
+systemd-timesyncd.service active: yes
+                 RTC in local TZ: no
+
+### network
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+eno1             UP             175.209.34.63/25 fe80::2eea:7fff:fea2:bbfd/64 
+enp59s0f0        DOWN           
+eno2             UP             10.10.10.55/24 fe80::2eea:7fff:fea2:bbfe/64 
+enp59s0f1        DOWN           
+
+default via 175.209.34.9 dev eno1 proto static 
+10.10.10.0/24 dev eno2 proto kernel scope link src 10.10.10.55 
+175.209.34.0/25 dev eno1 proto kernel scope link src 175.209.34.63 

@@ -1,0 +1,55 @@
+### user crontab
+
+### root crontab
+# Start of Acronis scheduler section. Please don't edit it manually.
+50 21 * * 1 /usr/lib/Acronis/Schedule/schedwrapper -m cron -i 1
+# End of Acronis scheduler section.
+
+### /etc/cron*
+-rw-r----- 1 root root  722 Nov 16  2017 /etc/crontab
+
+/etc/cron.d:
+total 20
+drwxr-xr-x   2 root root 4096 Oct  5  2021 .
+drwxr-xr-x 105 root root 4096 Dec 22 14:08 ..
+-rw-r-----   1 root root  589 Jan 15  2020 mdadm
+-rw-r-----   1 root root  102 Nov 16  2017 .placeholder
+-rw-r-----   1 root root  191 Oct  5  2021 popularity-contest
+
+/etc/cron.daily:
+total 60
+drwxr-xr-x   2 root root 4096 Nov 10  2021 .
+drwxr-xr-x 105 root root 4096 Dec 22 14:08 ..
+-rwxr-x---   1 root root  376 Nov 12  2019 apport
+-rwxr-x---   1 root root 1478 Apr 20  2018 apt-compat
+-rwxr-x---   1 root root  355 Dec 29  2017 bsdmainutils
+-rwxr-x---   1 root root 1176 Nov  3  2017 dpkg
+-rwxr-x---   1 root root  372 Aug 22  2017 logrotate
+-rwxr-x---   1 root root 1065 Apr  7  2018 man-db
+-rwxr-x---   1 root root  539 Jan 15  2020 mdadm
+-rwxr-x---   1 root root  538 Mar  2  2018 mlocate
+-rwxr-x---   1 root root 1387 Dec 13  2017 ntp
+-rwxr-x---   1 root root  249 Jan 26  2018 passwd
+-rw-r-----   1 root root  102 Nov 16  2017 .placeholder
+-rwxr-x---   1 root root 3477 Feb 21  2018 popularity-contest
+-rwxr-x---   1 root root  214 May 15  2021 update-notifier-common
+
+/etc/cron.hourly:
+total 12
+drwxr-xr-x   2 root root 4096 Oct  5  2021 .
+drwxr-xr-x 105 root root 4096 Dec 22 14:08 ..
+-rw-r-----   1 root root  102 Nov 16  2017 .placeholder
+
+/etc/cron.monthly:
+total 12
+drwxr-xr-x   2 root root 4096 Oct  5  2021 .
+drwxr-xr-x 105 root root 4096 Dec 22 14:08 ..
+-rw-r-----   1 root root  102 Nov 16  2017 .placeholder
+
+/etc/cron.weekly:
+total 20
+drwxr-xr-x   2 root root 4096 Oct  5  2021 .
+drwxr-xr-x 105 root root 4096 Dec 22 14:08 ..
+-rwxr-x---   1 root root  723 Apr  7  2018 man-db
+-rw-r-----   1 root root  102 Nov 16  2017 .placeholder
+-rwxr-x---   1 root root  403 Aug 24  2021 update-notifier-common

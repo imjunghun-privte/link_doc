@@ -1,0 +1,37 @@
+### adpos ps tree
+ 2151 16195 daiso    Sun Aug 24 11:55:28 2025 gunicorn: master [gunicorn]
+ 2171 16195 daiso    Sun Aug 24 11:55:29 2025 [celeryd: celery@adposap02:ForkPoolWorker-1]
+ 2172 16195 daiso    Sun Aug 24 11:55:29 2025 [celeryd: celery@adposap02:ForkPoolWorker-2]
+ 2173 16195 daiso    Sun Aug 24 11:55:29 2025 [celeryd: celery@adposap02:ForkPoolWorker-3]
+ 2174 16195 daiso    Sun Aug 24 11:55:29 2025 [celeryd: celery@adposap02:ForkPoolWorker-4]
+ 2175 16195 daiso    Sun Aug 24 11:55:29 2025 [celeryd: celery@adposap02:ForkPoolWorker-5]
+ 2176 16195 daiso    Sun Aug 24 11:55:29 2025 [celeryd: celery@adposap02:ForkPoolWorker-6]
+ 2177 16195 daiso    Sun Aug 24 11:55:29 2025 [celeryd: celery@adposap02:ForkPoolWorker-7]
+ 2178 16195 daiso    Sun Aug 24 11:55:29 2025 [celeryd: celery@adposap02:ForkPoolWorker-8]
+ 2179 16195 daiso    Sun Aug 24 11:55:29 2025 [celeryd: celery@adposap02:ForkPoolWorker-9]
+ 2180 16195 daiso    Sun Aug 24 11:55:30 2025 [celeryd: celery@adposap02:ForkPoolWorker-10]
+ 2181 16195 daiso    Sun Aug 24 11:55:30 2025 [celeryd: celery@adposap02:ForkPoolWorker-11]
+ 2182 16195 daiso    Sun Aug 24 11:55:30 2025 [celeryd: celery@adposap02:ForkPoolWorker-12]
+ 2183 16195 daiso    Sun Aug 24 11:55:30 2025 [celeryd: celery@adposap02:ForkPoolWorker-13]
+ 2185 16195 daiso    Sun Aug 24 11:55:30 2025 [celeryd: celery@adposap02:ForkPoolWorker-14]
+ 2186 16195 daiso    Sun Aug 24 11:55:30 2025 [celeryd: celery@adposap02:ForkPoolWorker-15]
+ 2187 16195 daiso    Sun Aug 24 11:55:30 2025 [celeryd: celery@adposap02:ForkPoolWorker-16]
+ 2780     1 root     Sun Aug 24 05:38:57 2025 nginx: master process /usr/sbin/nginx -c /etc/nginx/nginx.conf
+ 8148     1 daiso    Sun Aug 24 06:44:16 2025 /usr/local/jdk1.8.0_181/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/usr/local/hadoop/logs -Dyarn.log.file=hadoop-daiso-datanode-adposap02.log -Dyarn.home.dir=/usr/local/hadoop -Dyarn.root.logger=INFO,console -Djava.library.path=/usr/local/hadoop/lib/native -Dhadoop.log.dir=/usr/local/hadoop/logs -Dhadoop.log.file=hadoop-daiso-datanode-adposap02.log -Dhadoop.home.dir=/usr/local/hadoop -Dhadoop.id.str=daiso -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+ 8317     1 daiso    Sun Aug 24 06:44:20 2025 /usr/local/jdk1.8.0_181/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/usr/local/hadoop/logs -Dyarn.log.file=hadoop-daiso-secondarynamenode-adposap02.log -Dyarn.home.dir=/usr/local/hadoop -Dyarn.root.logger=INFO,console -Djava.library.path=/usr/local/hadoop/lib/native -Dhadoop.log.dir=/usr/local/hadoop/logs -Dhadoop.log.file=hadoop-daiso-secondarynamenode-adposap02.log -Dhadoop.home.dir=/usr/local/hadoop -Dhadoop.id.str=daiso -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+ 8556     1 daiso    Sun Aug 24 06:44:29 2025 /usr/local/jdk1.8.0_181/bin/java -Dproc_nodemanager -Djava.net.preferIPv4Stack=true -Dyarn.log.dir=/usr/local/hadoop/logs -Dyarn.log.file=hadoop-daiso-nodemanager-adposap02.log -Dyarn.home.dir=/usr/local/hadoop -Dyarn.root.logger=INFO,console -Djava.library.path=/usr/local/hadoop/lib/native -Dhadoop.log.dir=/usr/local/hadoop/logs -Dhadoop.log.file=hadoop-daiso-nodemanager-adposap02.log -Dhadoop.home.dir=/usr/local/hadoop -Dhadoop.id.str=daiso -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml -Dhadoop.security.logger=INFO,NullAppender org.apache.hadoop.yarn.server.nodemanager.NodeManager
+ 8823     1 daiso    Sun Aug 24 06:44:47 2025 /usr/local/jdk1.8.0_181/bin/java -cp /usr/local/spark/conf/:/usr/local/spark/jars/*:/usr/local/hadoop/etc/hadoop/ -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://adposap01:7077
+16195     1 daiso    Sun Aug 24 07:00:52 2025 [celeryd: celery@adposap02:MainProcess] -active- (celery worker -q adposq2)
+18333     1 daiso    Thu Oct  2 12:04:19 2025 /home/daiso/agent/adposv2/receipt/api/pos/receipt --config=/home/daiso/agent/adposv2/receipt/api/pos/configs/server.yml --addr=:49003
+27015     1 daiso    Thu Oct 16 17:43:53 2025 /home/daiso/agent/adpos/poslog/poslog --addr=:45503
+27910     1 daiso    Wed Oct  1 16:35:01 2025 /home/daiso/agent/adposv2/refundreason/api/pos/refundreason --config=/home/daiso/agent/adposv2/refundreason/api/pos/configs/server.yml --addr=:49002
+28027     1 daiso    Thu Oct 16 17:44:36 2025 /home/daiso/agent/adpos/message/pusher/pusher --addr=:5011 --P=certs/cert.pem --K=certs/key_dec.pem
+28138     1 daiso    Sun Aug 24 07:58:29 2025 /home/daiso/agent/adposv2/event/api/pos/event --config=/home/daiso/agent/adposv2/event/api/pos/configs/server.yml --addr=:49004
+28603     1 daiso    Thu Oct 16 17:45:55 2025 /home/daiso/agent/adpos/admin/admin --addr=:45500
+29612     1 daiso    Mon Sep  8 10:09:13 2025 /home/daiso/agent/adposv2/version/api/pos/pos --config=/home/daiso/agent/adposv2/version/api/pos/configs/server.yml --addr=:49001
+29856     1 daiso    Thu Oct 16 17:48:40 2025 /home/daiso/agent/adpos/pos/pos --addr=:45502
+30940     1 daiso    Mon Sep  8 12:17:49 2025 /home/daiso/agent/adposv2/master/api/pos/master --config=/home/daiso/agent/adposv2/master/api/pos/configs/server.yml --addr=:49006
+31142     1 daiso    Thu Oct 16 17:53:30 2025 /home/daiso/agent/adpos/event/producers/producer --addr=:25502 --P=certs/cert.pem --K=certs/key_dec.pem
+32265 32182 daiso    Tue Dec 23 12:12:25 2025 tee /var/tmp/ops_adposap02_20251223_121223/02_services_ps_tree.txt
+32267 32264 daiso    Tue Dec 23 12:12:25 2025 grep -E adpos|adposv2|poslog|refundreason|receipt|master|producer|pusher(_ws)?
+32289     1 daiso    Thu Oct 16 17:56:24 2025 /home/daiso/agent/adpos/event/pusher_ws/pusher_ws --addr=:35500 --P=certs/cert.pem --K=certs/key_dec.pem

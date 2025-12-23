@@ -1,0 +1,80 @@
+### listen ports (ss)
+NetidState   Recv-Q  Send-Q             Local Address:Port    Peer Address:Port                                                                                 
+udp  UNCONN  0       0                      127.0.0.1:24100        0.0.0.0:*                                                                                    
+udp  UNCONN  26880   0                      127.0.0.1:24101        0.0.0.0:*                                                                                    
+udp  UNCONN  0       0                      127.0.0.1:24102        0.0.0.0:*                                                                                    
+udp  UNCONN  0       0                      127.0.0.1:24103        0.0.0.0:*                                                                                    
+udp  UNCONN  58880   0                      127.0.0.1:24104        0.0.0.0:*                                                                                    
+udp  UNCONN  0       0                      127.0.0.1:24105        0.0.0.0:*                                                                                    
+udp  UNCONN  0       0                      127.0.0.1:24106        0.0.0.0:*                                                                                    
+udp  UNCONN  65280   0                      127.0.0.1:24107        0.0.0.0:*                                                                                    
+udp  UNCONN  0       0                      127.0.0.1:24108        0.0.0.0:*                                                                                    
+udp  UNCONN  0       0                      127.0.0.1:24109        0.0.0.0:*                                                                                    
+udp  UNCONN  4608    0                      127.0.0.1:24110        0.0.0.0:*                                                                                    
+udp  UNCONN  0       0                      127.0.0.1:24111        0.0.0.0:*                                                                                    
+udp  UNCONN  37632   0                  127.0.0.53%lo:53           0.0.0.0:*                                                                                    
+udp  UNCONN  0       0                      127.0.0.1:323          0.0.0.0:*                                                                                    
+udp  UNCONN  0       0                          [::1]:323             [::]:*                                                                                    
+tcp  LISTEN  0       1024                   127.0.0.1:31009        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       1024                   127.0.0.1:43234        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       128                      0.0.0.0:10050        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       1024                   127.0.0.1:30691        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       1024                   127.0.0.1:9892         0.0.0.0:*                                                                                    
+tcp  LISTEN  0       1024                   127.0.0.1:30692        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       1000                     0.0.0.0:7780         0.0.0.0:*                                                                                    
+tcp  LISTEN  0       1024                   127.0.0.1:30630        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       256                      0.0.0.0:35207        0.0.0.0:*     users:(("java",pid=8556,fd=421))                                               
+tcp  LISTEN  0       256                      0.0.0.0:8040         0.0.0.0:*     users:(("java",pid=8556,fd=433))                                               
+tcp  LISTEN  0       1024                     0.0.0.0:9864         0.0.0.0:*     users:(("java",pid=8148,fd=497))                                               
+tcp  LISTEN  0       128                    127.0.0.1:19849        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       128                      0.0.0.0:8042         0.0.0.0:*     users:(("java",pid=8556,fd=444))                                               
+tcp  LISTEN  0       256                      0.0.0.0:9866         0.0.0.0:*     users:(("java",pid=8148,fd=296))                                               
+tcp  LISTEN  0       256                      0.0.0.0:9867         0.0.0.0:*     users:(("java",pid=8148,fd=498))                                               
+tcp  LISTEN  0       128                    127.0.0.1:30443        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       1024                   127.0.0.1:30667        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       100                    127.0.0.1:7755         0.0.0.0:*                                                                                    
+tcp  LISTEN  0       128                175.209.34.75:9868         0.0.0.0:*     users:(("java",pid=8317,fd=298))                                               
+tcp  LISTEN  0       256                    127.0.0.1:30444        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       128                    127.0.0.1:30572        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       100                    127.0.0.1:7756         0.0.0.0:*                                                                                    
+tcp  LISTEN  0       511                      0.0.0.0:35504        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       1024                   127.0.0.1:30677        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       100                    127.0.0.1:7765         0.0.0.0:*                                                                                    
+tcp  LISTEN  0       128                127.0.0.53%lo:53           0.0.0.0:*                                                                                    
+tcp  LISTEN  0       128                      0.0.0.0:22           0.0.0.0:*                                                                                    
+tcp  LISTEN  0       1024                   127.0.0.1:30678        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       128                    127.0.0.1:30679        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       1024                     0.0.0.0:8793         0.0.0.0:*     users:(("gunicorn: worke",pid=2154,fd=11),("gunicorn: worke",pid=2153,fd=11),("gunicorn: maste",pid=2151,fd=11))
+tcp  LISTEN  0       128                    127.0.0.1:9369         0.0.0.0:*     users:(("java",pid=8148,fd=299))                                               
+tcp  LISTEN  0       1024                   127.0.0.1:30681        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       128                    127.0.0.1:6010         0.0.0.0:*                                                                                    
+tcp  LISTEN  0       128                      0.0.0.0:13562        0.0.0.0:*     users:(("java",pid=8556,fd=443))                                               
+tcp  LISTEN  0       128                      0.0.0.0:9850         0.0.0.0:*                                                                                    
+tcp  LISTEN  0       128                      0.0.0.0:9851         0.0.0.0:*                                                                                    
+tcp  LISTEN  0       1024                   127.0.0.1:12539        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       1024                     0.0.0.0:30333        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       511                      0.0.0.0:25501        0.0.0.0:*                                                                                    
+tcp  LISTEN  0       128                         [::]:10050           [::]:*                                                                                    
+tcp  LISTEN  0       1024                           *:2600               *:*                                                                                    
+tcp  LISTEN  0       1024                           *:49001              *:*     users:(("pos",pid=29612,fd=8))                                                 
+tcp  LISTEN  0       1024                           *:49002              *:*     users:(("refundreason",pid=27910,fd=8))                                        
+tcp  LISTEN  0       1024                           *:49003              *:*     users:(("receipt",pid=18333,fd=9))                                             
+tcp  LISTEN  0       1024                           *:35500              *:*     users:(("pusher_ws",pid=32289,fd=9))                                           
+tcp  LISTEN  0       1024                           *:49004              *:*     users:(("event",pid=28138,fd=7))                                               
+tcp  LISTEN  0       128                        [::1]:30572           [::]:*                                                                                    
+tcp  LISTEN  0       1024                           *:2700               *:*                                                                                    
+tcp  LISTEN  0       511                            *:2381               *:*                                                                                    
+tcp  LISTEN  0       1024                           *:49006              *:*     users:(("master",pid=30940,fd=8))                                              
+tcp  LISTEN  0       2                              *:8081               *:*     users:(("java",pid=8823,fd=301))                                               
+tcp  LISTEN  0       1024                           *:5011               *:*     users:(("pusher",pid=28027,fd=8))                                              
+tcp  LISTEN  0       1024                           *:9877               *:*                                                                                    
+tcp  LISTEN  0       128                         [::]:22              [::]:*                                                                                    
+tcp  LISTEN  0       1024      [::ffff:175.209.34.75]:11991              *:*     users:(("java",pid=8823,fd=292))                                               
+tcp  LISTEN  0       128                        [::1]:6010            [::]:*                                                                                    
+tcp  LISTEN  0       1024                           *:45500              *:*     users:(("admin",pid=28603,fd=9))                                               
+tcp  LISTEN  0       1024                           *:30685              *:*                                                                                    
+tcp  LISTEN  0       511                            *:2301               *:*                                                                                    
+tcp  LISTEN  0       128                        [::1]:26525           [::]:*                                                                                    
+tcp  LISTEN  0       1024                           *:25502              *:*     users:(("producer",pid=31142,fd=7))                                            
+tcp  LISTEN  0       1024                           *:45502              *:*     users:(("pos",pid=29856,fd=7))                                                 
+tcp  LISTEN  0       1024                           *:45503              *:*     users:(("poslog",pid=27015,fd=7))                                              

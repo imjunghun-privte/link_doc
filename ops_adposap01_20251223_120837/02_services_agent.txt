@@ -1,0 +1,36 @@
+### agent tree
+total 20
+drwxrwxr-x  5 daiso daiso 4096 Oct 19  2022 .
+drwxr-xr-x 15 daiso daiso 4096 Dec 23 12:08 ..
+drwxrwxr-x  7 daiso daiso 4096 Dec 30  2022 adpos
+drwxrwxr-x  7 daiso daiso 4096 Dec 21  2022 adposv2
+drwxrwxr-x  3 daiso daiso 4096 Jan  1  2022 cts
+
+### agent start candidates
+/home/daiso/agent/adpos/event/producers/repeater.sh
+/home/daiso/agent/adpos/event/producers/shutdown.sh
+/home/daiso/agent/adpos/event/producers/startup.sh
+/home/daiso/agent/adpos/event/producers/stop.sh
+/home/daiso/agent/adpos/event/pusher_ws/repeater.sh
+/home/daiso/agent/adpos/event/pusher_ws/shutdown.sh
+/home/daiso/agent/adpos/event/pusher_ws/startup.sh
+/home/daiso/agent/adpos/event/pusher_ws/stop.sh
+/home/daiso/agent/adpos/pos/repeater.sh
+/home/daiso/agent/adpos/pos/shutdown.sh
+/home/daiso/agent/adpos/pos/startup.sh
+/home/daiso/agent/adpos/pos/stop.sh
+/home/daiso/agent/adpos/message/pusher/repeater.sh
+/home/daiso/agent/adpos/message/pusher/shutdown.sh
+/home/daiso/agent/adpos/message/pusher/startup.sh
+/home/daiso/agent/adpos/message/pusher/stop.sh
+/home/daiso/agent/adpos/admin/repeater.sh
+/home/daiso/agent/adpos/admin/shutdown.sh
+/home/daiso/agent/adpos/admin/startup.sh
+/home/daiso/agent/adpos/admin/stop.sh
+/home/daiso/agent/adpos/poslog/repeater.sh
+/home/daiso/agent/adpos/poslog/shutdown.sh
+/home/daiso/agent/adpos/poslog/startup.sh
+/home/daiso/agent/adpos/poslog/stop.sh
+/home/daiso/agent/cts/ctsclient/start.sh
+/home/daiso/agent/cts/ctsclient/stop.sh
+/home/daiso/agent/cts/ctsclient/ctsclient.service
